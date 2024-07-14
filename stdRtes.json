@@ -1,0 +1,4296 @@
+{
+  "metadata": {
+    "cycleInfo": {
+      "cycle": 2408,
+      "releaseAnrAligned": true,
+      "releaseType": "routine",
+      "fileGeneratedAt": "2024-07-14T13-32-03"
+    },
+    "validityNumber": [
+      {
+        "rangeStart": 1,
+        "rangeEnd": 3,
+        "description": "Primary"
+      },
+      {
+        "rangeStart": 4,
+        "rangeEnd": 6,
+        "description": "Secondary"
+      },
+      {
+        "rangeStart": 7,
+        "rangeEnd": 9,
+        "description": "Extra"
+      }
+    ],
+    "description": "NZZC Standard Routes for AIRAC Cycle 2408"
+  },
+  "routes": {
+    "NZAA": [
+      {
+        "id": "AACH1",
+        "departureAerodrome": "NZAA",
+        "destinationAerodrome": "NZCH",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H384",
+          "NP",
+          "H252",
+          "NS",
+          "Y288"
+        ],
+        "remarks": {
+          "ac_type": "Jets",
+          "alt_limit": "FL240 and above"
+        }
+      },
+      {
+        "id": "AACH6",
+        "departureAerodrome": "NZAA",
+        "destinationAerodrome": "NZCH",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H384",
+          "NP",
+          "Q137",
+          "VELGA",
+          "Y894"
+        ],
+        "remarks": {
+          "ac_type": "Props"
+        }
+      },
+      {
+        "id": "AADN3",
+        "departureAerodrome": "NZAA",
+        "destinationAerodrome": "NZDN",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "Y320",
+          "LAKAR",
+          "Y874",
+          "MIPAK"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "AAGS3",
+        "departureAerodrome": "NZAA",
+        "destinationAerodrome": "NZGS",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H372",
+          "TULMI",
+          "Y548",
+          "DABIP",
+          "H328"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "AAGS4",
+        "departureAerodrome": "NZAA",
+        "destinationAerodrome": "NZGS",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H372",
+          "RO",
+          "H328"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "AAGB2",
+        "departureAerodrome": "NZAA",
+        "destinationAerodrome": "NZGB",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "Q136"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "AAHN1",
+        "departureAerodrome": "NZAA",
+        "destinationAerodrome": "NZHN",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H211"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "AAKT1",
+        "departureAerodrome": "NZAA",
+        "destinationAerodrome": "NZKT",
+        "lastUpdated": null,
+        "runwayDependant": true,
+        "routePoints": [
+          {
+            "runway": "AA RWY 23L",
+            "points": [
+              "G591"
+            ]
+          },
+          {
+            "runway": "AA RWY 05R",
+            "points": [
+              "Q520",
+              "APABO",
+              "Q659",
+              "PERAS",
+              "G591"
+            ]
+          }
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "AAKK1",
+        "departureAerodrome": "NZAA",
+        "destinationAerodrome": "NZKK",
+        "lastUpdated": null,
+        "runwayDependant": true,
+        "routePoints": [
+          {
+            "runway": "AA RWY 23L",
+            "points": [
+              "G591",
+              "UKAPA",
+              "Q797"
+            ]
+          },
+          {
+            "runway": "AA RWY 05R",
+            "points": [
+              "Q520",
+              "SF",
+              "H275"
+            ]
+          }
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "AANR2",
+        "departureAerodrome": "NZAA",
+        "destinationAerodrome": "NZNR",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H211",
+          "HN",
+          "Y550",
+          "GENDA",
+          "H211"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "AANR5",
+        "departureAerodrome": "NZAA",
+        "destinationAerodrome": "NZNR",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H211"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "AANS2",
+        "departureAerodrome": "NZAA",
+        "destinationAerodrome": "NZNS",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H384",
+          "NP",
+          "H252"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "AANP1",
+        "departureAerodrome": "NZAA",
+        "destinationAerodrome": "NZNP",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H384",
+          "KARRL",
+          "Y832",
+          "EKALI",
+          "Y244"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "AANV1",
+        "departureAerodrome": "NZAA",
+        "destinationAerodrome": "NZNV",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "Y320",
+          "QN",
+          "Q787"
+        ],
+        "remarks": {
+          "ac_type": "Jets"
+        }
+      },
+      {
+        "id": "AANV5",
+        "departureAerodrome": "NZAA",
+        "destinationAerodrome": "NZNV",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "Y320",
+          "LAKAR",
+          "Y628",
+          "UPNIX",
+          "Y496",
+          "DUKOP",
+          "Y676",
+          "NV"
+        ],
+        "remarks": {
+          "ac_type": "Jets"
+        }
+      },
+      {
+        "id": "AAPM2",
+        "departureAerodrome": "NZAA",
+        "destinationAerodrome": "NZPM",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H211",
+          "LAKES",
+          "Y666"
+        ],
+        "remarks": {
+          "alt_limit": "12,000 ft and above"
+        }
+      },
+      {
+        "id": "AAPM5",
+        "departureAerodrome": "NZAA",
+        "destinationAerodrome": "NZPM",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H211",
+          "HN",
+          "H325",
+          "TM",
+          "H182",
+          "AVKAB",
+          "H336"
+        ],
+        "remarks": {
+          "alt_limit": "10,000 ft and below"
+        }
+      },
+      {
+        "id": "AAPP3",
+        "departureAerodrome": "NZAA",
+        "destinationAerodrome": "NZPP",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H384",
+          "KARRL",
+          "Y506",
+          "TPAPA",
+          "Y610"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "AAQN2",
+        "departureAerodrome": "NZAA",
+        "destinationAerodrome": "NZQN",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "Y320"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "AAQN4",
+        "departureAerodrome": "NZAA",
+        "destinationAerodrome": "NZQN",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "Y320",
+          "LAKAR",
+          "Y628",
+          "UPNIX",
+          "Y266"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "AARO1",
+        "departureAerodrome": "NZAA",
+        "destinationAerodrome": "NZRO",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H372"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "AAAP1",
+        "departureAerodrome": "NZAA",
+        "destinationAerodrome": "NZAP",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H211"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "AATG1",
+        "departureAerodrome": "NZAA",
+        "destinationAerodrome": "NZTG",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H372",
+          "TULMI",
+          "H436"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "AAWU2",
+        "departureAerodrome": "NZAA",
+        "destinationAerodrome": "NZWU",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H211",
+          "HN",
+          "H325",
+          "TM",
+          "H247"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "AAWN1",
+        "departureAerodrome": "NZAA",
+        "destinationAerodrome": "NZWN",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H384",
+          "KARRL",
+          "Y506",
+          "TPAPA",
+          "Y738"
+        ],
+        "remarks": {
+          "alt_reachBy": "Reach cleared level by 10NM prior to SILVO"
+        }
+      },
+      {
+        "id": "AAWK3",
+        "departureAerodrome": "NZAA",
+        "destinationAerodrome": "NZWK",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H372",
+          "TULMI",
+          "H436",
+          "TG",
+          "H117"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "AAWR3",
+        "departureAerodrome": "NZAA",
+        "destinationAerodrome": "NZWR",
+        "lastUpdated": null,
+        "runwayDependant": true,
+        "routePoints": [
+          {
+            "runway": "AA RWY 23L",
+            "points": [
+              "H460",
+              "KOPPA",
+              "H441",
+              "SF"
+            ]
+          },
+          {
+            "runway": "AA RWY 05R",
+            "points": [
+              "H379",
+              "SF"
+            ]
+          }
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "AAWB3",
+        "departureAerodrome": "NZAA",
+        "destinationAerodrome": "NZWB",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H384",
+          "NP",
+          "Y738",
+          "PADMU",
+          "Y198",
+          "AKAVI",
+          "Q566",
+          "IPMIR",
+          "Q472"
+        ],
+        "remarks": {}
+      }
+    ],
+    "NZDN": [
+      {
+        "id": "DNAA1",
+        "departureAerodrome": "NZDN",
+        "destinationAerodrome": "NZAA",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "BIDEL",
+          "Y477",
+          "CH",
+          "Y175",
+          "OMKUN",
+          "Y655",
+          "POKOM",
+          "Q277"
+        ],
+        "remarks": {
+          "ac_type": "Jets",
+          "nav_rnpReq": "RNP 1 Required",
+          "alt_maintain": "For flights at FL260 or above, maintain FL250 to LADIS"
+        }
+      },
+      {
+        "id": "DNAA4",
+        "departureAerodrome": "NZDN",
+        "destinationAerodrome": "NZAA",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "BIDEL",
+          "Y477",
+          "CH",
+          "H110",
+          "PORAM",
+          "Y781",
+          "RIVTA",
+          "Y523",
+          "GULOV",
+          "Y175",
+          "OMKUN",
+          "Y311",
+          "DADUK",
+          "Y273",
+          "PEPPE",
+          "H182"
+        ],
+        "remarks": {
+          "ac_type": "Props",
+          "nav_rnpReq": "RNP 1 Required",
+          "alt_maintain": "For flights at FL260 or above,maintain FL250 to LADIS"
+        }
+      },
+      {
+        "id": "DNCH2",
+        "departureAerodrome": "NZDN",
+        "destinationAerodrome": "NZCH",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "BIDEL",
+          "Y477"
+        ],
+        "remarks": {
+          "nav_rnpReq": "RNP 1 Required",
+          "alt_maintain": "For flights at FL260 or above, maintain FL250 to LADIS"
+        }
+      },
+      {
+        "id": "DNNV2",
+        "departureAerodrome": "NZDN",
+        "destinationAerodrome": "NZNV",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "AKPIN"
+        ],
+        "remarks": {
+          "nav_rnpReq": "RNP 1 Required",
+          "alt_mfa": "MFA 4000 ft"
+        }
+      },
+      {
+        "id": "DNNV5",
+        "departureAerodrome": "NZDN",
+        "destinationAerodrome": "NZNV",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "BE",
+          "H264"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "DNWN3",
+        "departureAerodrome": "NZDN",
+        "destinationAerodrome": "NZWN",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "BIDEL",
+          "Y477",
+          "LADIS",
+          "Y727",
+          "WARDS",
+          "Y393"
+        ],
+        "remarks": {
+          "ac_type": "Jets",
+          "nav_rnpReq": "RNP 1 Required",
+          "alt_maintain": "FL260 and above: maintain FL250 to LADIS"
+        }
+      },
+      {
+        "id": "DNWN5",
+        "departureAerodrome": "NZDN",
+        "destinationAerodrome": "NZWN",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "BIDEL",
+          "Y477",
+          "CH",
+          "Y393"
+        ],
+        "remarks": {
+          "ac_type": "Props",
+          "nav_rnpReq": "RNP 1 Required",
+          "alt_maintain": "For flights at FL260 or above, maintain FL250 to LADIS"
+        }
+      }
+    ],
+    "NZGS": [
+      {
+        "id": "GSAA1",
+        "departureAerodrome": "NZGS",
+        "destinationAerodrome": "NZAA",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H117",
+          "DODKU",
+          "Q132",
+          "MERAS",
+          "Q119"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "GSHN3",
+        "departureAerodrome": "NZGS",
+        "destinationAerodrome": "NZHN",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H328",
+          "RO",
+          "H234",
+          "FALLS",
+          "H114"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "GSHN4",
+        "departureAerodrome": "NZGS",
+        "destinationAerodrome": "NZHN",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H328"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "GSNR1",
+        "departureAerodrome": "NZGS",
+        "destinationAerodrome": "NZNR",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H245"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "GSNR4",
+        "departureAerodrome": "NZGS",
+        "destinationAerodrome": "NZNR",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H386"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "GSWO3",
+        "departureAerodrome": "NZGS",
+        "destinationAerodrome": "NZWO",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H245"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "GSWN3",
+        "departureAerodrome": "NZGS",
+        "destinationAerodrome": "NZWN",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H245",
+          "NR",
+          "H103",
+          "RIDLA",
+          "H201",
+          "PM",
+          "V242",
+          "DOGAD",
+          "V112"
+        ],
+        "remarks": {}
+      }
+    ],
+    "NZGB": [
+      {
+        "id": "GBAA2",
+        "departureAerodrome": "NZGB",
+        "destinationAerodrome": "NZAA",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "Q136"
+        ],
+        "remarks": {}
+      }
+    ],
+    "NZHN": [
+      {
+        "id": "HNAA3",
+        "departureAerodrome": "NZHN",
+        "destinationAerodrome": "NZAA",
+        "lastUpdated": null,
+        "runwayDependant": true,
+        "routePoints": [
+          {
+            "runway": "AA RWY 23L",
+            "points": [
+              "Auckland SKEPY2A Arrival"
+            ]
+          }
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "HNCH3",
+        "departureAerodrome": "NZHN",
+        "destinationAerodrome": "NZCH",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H479",
+          "NP",
+          "H252",
+          "NS",
+          "Y288"
+        ],
+        "remarks": {
+          "alt_limit": "FL240 and above"
+        }
+      },
+      {
+        "id": "HNCH5",
+        "departureAerodrome": "NZHN",
+        "destinationAerodrome": "NZCH",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "Q126",
+          "LIKTU",
+          "Y526",
+          "ALADA",
+          "Y894"
+        ],
+        "remarks": {
+          "alt_mfa": "MFA 10,000 ft"
+        }
+      },
+      {
+        "id": "HNGS1",
+        "departureAerodrome": "NZHN",
+        "destinationAerodrome": "NZGS",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H328"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "HNNE3",
+        "departureAerodrome": "NZHN",
+        "destinationAerodrome": "NZNE",
+        "lastUpdated": null,
+        "runwayDependant": true,
+        "routePoints": [
+          {
+            "runway": "WP RWY 03",
+            "points": [
+              "Q718",
+              "SURFY",
+              "Q789",
+              "LIBKO"
+            ]
+          },
+          {
+            "runway": "WP RWY 21",
+            "points": [
+              "Q401",
+              "MERAS",
+              "Q741",
+              "HOOKS",
+              "Q789",
+              "UPLIN"
+            ]
+          }
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "HNNR1",
+        "departureAerodrome": "NZHN",
+        "destinationAerodrome": "NZNR",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H211"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "HNNS3",
+        "departureAerodrome": "NZHN",
+        "destinationAerodrome": "NZNS",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H479",
+          "NP",
+          "H252"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "HNNP2",
+        "departureAerodrome": "NZHN",
+        "destinationAerodrome": "NZNP",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H479"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "HNPM1",
+        "departureAerodrome": "NZHN",
+        "destinationAerodrome": "NZPM",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H325",
+          "DROPT",
+          "Y666"
+        ],
+        "remarks": {
+          "alt_limit": "12,000 ft and above"
+        }
+      },
+      {
+        "id": "HNPM5",
+        "departureAerodrome": "NZHN",
+        "destinationAerodrome": "NZPM",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H325",
+          "TM",
+          "H182",
+          "AVKAB",
+          "H336"
+        ],
+        "remarks": {
+          "alt_limit": "10,000 ft and below"
+        }
+      },
+      {
+        "id": "HNRO2",
+        "departureAerodrome": "NZHN",
+        "destinationAerodrome": "NZRO",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H328"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "HNTG1",
+        "departureAerodrome": "NZHN",
+        "destinationAerodrome": "NZTG",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H105"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "HNTG4",
+        "departureAerodrome": "NZHN",
+        "destinationAerodrome": "NZTG",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H114"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "HNWK3",
+        "departureAerodrome": "NZHN",
+        "destinationAerodrome": "NZWK",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H328",
+          "RO",
+          "H480"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "HNWU2",
+        "departureAerodrome": "NZHN",
+        "destinationAerodrome": "NZWU",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H325",
+          "TM",
+          "H247"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "HNWN3",
+        "departureAerodrome": "NZHN",
+        "destinationAerodrome": "NZWN",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H325",
+          "PM",
+          "V242",
+          "DOGAD",
+          "V112"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "HNWN6",
+        "departureAerodrome": "NZHN",
+        "destinationAerodrome": "NZWN",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H325",
+          "TM",
+          "H247",
+          "WU",
+          "Q367",
+          "LEDOR",
+          "Y762",
+          "TPAPA",
+          "Y738"
+        ],
+        "remarks": {
+          "misc": [
+            "Available for use only when hazardous flight conditions exist north-east of Wellington"
+          ]
+        }
+      },
+      {
+        "id": "HNWP2",
+        "departureAerodrome": "NZHN",
+        "destinationAerodrome": "NZWP",
+        "lastUpdated": null,
+        "runwayDependant": true,
+        "routePoints": [
+          {
+            "runway": "WP RWY 03",
+            "points": [
+              "Q718"
+            ]
+          },
+          {
+            "runway": "WP RWY 21",
+            "points": [
+              "Q401",
+              "MERAS",
+              "Q741"
+            ]
+          }
+        ],
+        "remarks": {
+          "nav_otherReq": "AVBL RNAV and/or GNSS APV ACFT only"
+        }
+      }
+    ],
+    "NZMS": [
+      {
+        "id": "MSCH1",
+        "departureAerodrome": "NZMS",
+        "destinationAerodrome": "NZCH",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "GURBO",
+          "Y804",
+          "ATBUB",
+          "H159"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "MSWN1",
+        "departureAerodrome": "NZMS",
+        "destinationAerodrome": "NZWN",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "LADIT",
+          "Y242"
+        ],
+        "remarks": {}
+      }
+    ],
+    "NZNV": [
+      {
+        "id": "NVAA1",
+        "departureAerodrome": "NZNV",
+        "destinationAerodrome": "NZAA",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "Q787",
+          "QN",
+          "Y569",
+          "LOVTA",
+          "Y655",
+          "POKOM",
+          "Q277"
+        ],
+        "remarks": {
+          "ac_type": "Jets"
+        }
+      },
+      {
+        "id": "NVAA4",
+        "departureAerodrome": "NZNV",
+        "destinationAerodrome": "NZAA",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "Y615",
+          "ELDAK",
+          "Q196",
+          "CH",
+          "Y175",
+          "OMKUN",
+          "Y655",
+          "POKOM",
+          "Q277"
+        ],
+        "remarks": {
+          "ac_type": "Jets"
+        }
+      },
+      {
+        "id": "NVCH2",
+        "departureAerodrome": "NZNV",
+        "destinationAerodrome": "NZCH",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "Y615",
+          "ELDAK",
+          "Q196"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "NVDN2",
+        "departureAerodrome": "NZNV",
+        "destinationAerodrome": "NZDN",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "EPDAB"
+        ],
+        "remarks": {
+          "nav_rnpReq": "RNP 1 required",
+          "alt_mfa": "MFA 5000 ft"
+        }
+      },
+      {
+        "id": "NVDN4",
+        "departureAerodrome": "NZNV",
+        "destinationAerodrome": "NZDN",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H264",
+          "BE"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "NVWN3",
+        "departureAerodrome": "NZNV",
+        "destinationAerodrome": "NZWN",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "Y615",
+          "ELDAK",
+          "Q196",
+          "CH",
+          "Y393"
+        ],
+        "remarks": {}
+      }
+    ],
+    "NZNS": [
+      {
+        "id": "NSAA1",
+        "departureAerodrome": "NZNS",
+        "destinationAerodrome": "NZAA",
+        "lastUpdated": null,
+        "runwayDependant": true,
+        "routePoints": [
+          {
+            "runway": "NS RWY 02",
+            "points": [
+              "Q438",
+              "IGUTA",
+              "Y175",
+              "OMKUN",
+              "Y311",
+              "DADUK",
+              "Y273",
+              "PEPPE",
+              "H182"
+            ]
+          },
+          {
+            "runway": "NS RWY 20",
+            "points": [
+              "BIVER",
+              "Y341",
+              "SEBRU",
+              "Y655",
+              "OMKUN",
+              "Y311",
+              "DADUK",
+              "Y273",
+              "PEPPE",
+              "H182"
+            ]
+          }
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "NSCH2",
+        "departureAerodrome": "NZNS",
+        "destinationAerodrome": "NZCH",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "Q787",
+          "ALADA",
+          "Y894"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "NSHN1",
+        "departureAerodrome": "NZNS",
+        "destinationAerodrome": "NZHN",
+        "lastUpdated": null,
+        "runwayDependant": true,
+        "routePoints": [
+          {
+            "runway": "NS RWY 02",
+            "points": [
+              "Q438",
+              "IGUTA",
+              "Y175",
+              "OPABI",
+              "Q126"
+            ]
+          },
+          {
+            "runway": "NS RWY 20",
+            "points": [
+              "BIVER",
+              "Y341",
+              "SEBRU",
+              "Y655",
+              "OMKUN",
+              "Y175",
+              "OPABI",
+              "Q126"
+            ]
+          }
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "NSPM2",
+        "departureAerodrome": "NZNS",
+        "destinationAerodrome": "NZPM",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "Q438",
+          "SNAPA",
+          "Y501",
+          "DUMOT",
+          "H240"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "NSPP3",
+        "departureAerodrome": "NZNS",
+        "destinationAerodrome": "NZPP",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H267",
+          "SIMZI",
+          "Q388"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "NSWU2",
+        "departureAerodrome": "NZNS",
+        "destinationAerodrome": "NZWU",
+        "lastUpdated": null,
+        "runwayDependant": true,
+        "routePoints": [
+          {
+            "runway": "NS RWY 02",
+            "points": [
+              "H240",
+              "DUMOT",
+              "Q367"
+            ]
+          },
+          {
+            "runway": "NS RWY 20",
+            "points": [
+              "Q438",
+              "SNAPA",
+              "Y501",
+              "DUMOT",
+              "Q367"
+            ]
+          }
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "NSWN2",
+        "departureAerodrome": "NZNS",
+        "destinationAerodrome": "NZWN",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H267"
+        ],
+        "remarks": {
+          "nav_otherReq": "Non-RNAV aircraft expect radar vectors after SIMZI"
+        }
+      },
+      {
+        "id": "NSWB3",
+        "departureAerodrome": "NZNS",
+        "destinationAerodrome": "NZWB",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H133"
+        ],
+        "remarks": {}
+      }
+    ],
+    "NZNE": [
+      {
+        "id": "NEHN3",
+        "departureAerodrome": "NZNE",
+        "destinationAerodrome": "NZHN",
+        "lastUpdated": null,
+        "runwayDependant": true,
+        "routePoints": [
+          {
+            "runway": "WP RWY 03",
+            "points": [
+              "UPLIN",
+              "Q789",
+              "HOOKS",
+              "Q741",
+              "MERAS",
+              "Q401"
+            ]
+          },
+          {
+            "runway": "WP RWY 21",
+            "points": [
+              "LIBKO",
+              "Q789",
+              "SURFY",
+              "Q718"
+            ]
+          }
+        ],
+        "remarks": {}
+      }
+    ],
+    "NZOH": [
+      {
+        "id": "OHAA1",
+        "departureAerodrome": "NZOH",
+        "destinationAerodrome": "NZAA",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H352",
+          "WU",
+          "Q647",
+          "DAGOM",
+          "Y273",
+          "OMBUB",
+          "Q102",
+          "OPABI",
+          "Q277"
+        ],
+        "remarks": {
+          "ac_type": "Jets"
+        }
+      },
+      {
+        "id": "OHAA4",
+        "departureAerodrome": "NZOH",
+        "destinationAerodrome": "NZAA",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H352",
+          "WU",
+          "Q647",
+          "DAGOM",
+          "Y273",
+          "PEPPE",
+          "H182"
+        ],
+        "remarks": {
+          "ac_type": "Props"
+        }
+      },
+      {
+        "id": "OHCH2",
+        "departureAerodrome": "NZOH",
+        "destinationAerodrome": "NZCH",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "V468",
+          "ABTOL",
+          "Y226",
+          "GURBO",
+          "Y804",
+          "ATBUB",
+          "H159"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "OHWN2",
+        "departureAerodrome": "NZOH",
+        "destinationAerodrome": "NZWN",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "V112"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "OHWN5",
+        "departureAerodrome": "NZOH",
+        "destinationAerodrome": "NZWN",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "Q169",
+          "AVKEX",
+          "Q235"
+        ],
+        "remarks": {
+          "misc": [
+            "Available for use also when hazardous flight conditions exist north-east of Wellington"
+          ]
+        }
+      },
+      {
+        "id": "OHWP1",
+        "departureAerodrome": "NZOH",
+        "destinationAerodrome": "NZWP",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H352",
+          "WU",
+          "Q647",
+          "DAGOM",
+          "Y273",
+          "OMBUB",
+          "Q102",
+          "OPABI",
+          "Q277",
+          "AA",
+          "H182"
+        ],
+        "remarks": {
+          "ac_type": "Jets"
+        }
+      },
+      {
+        "id": "OHWP6",
+        "departureAerodrome": "NZOH",
+        "destinationAerodrome": "NZWP",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H352",
+          "WU",
+          "Q647",
+          "DAGOM",
+          "Y273",
+          "PEPPE",
+          "H182"
+        ],
+        "remarks": {
+          "ac_type": "Props"
+        }
+      },
+      {
+        "id": "OHWB1",
+        "departureAerodrome": "NZOH",
+        "destinationAerodrome": "NZWB",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "Q169",
+          "AVKEX",
+          "Q472"
+        ],
+        "remarks": {}
+      }
+    ],
+    "NZPM": [
+      {
+        "id": "PMAA2",
+        "departureAerodrome": "NZPM",
+        "destinationAerodrome": "NZAA",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "OMBUB",
+          "Y273",
+          "PEPPE",
+          "H182"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "PMAA6",
+        "departureAerodrome": "NZPM",
+        "destinationAerodrome": "NZAA",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H336",
+          "AVKAB",
+          "H182"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "PMCH3",
+        "departureAerodrome": "NZPM",
+        "destinationAerodrome": "NZCH",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "Y226",
+          "GURBO",
+          "Y804",
+          "ATBUB",
+          "H159"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "PMCH4",
+        "departureAerodrome": "NZPM",
+        "destinationAerodrome": "NZCH",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H240",
+          "NS",
+          "Y288"
+        ],
+        "remarks": {
+          "misc": [
+            "Available for use also when hazardous flight conditions exist north-east of Wellington"
+          ]
+        }
+      },
+      {
+        "id": "PMHN3",
+        "departureAerodrome": "NZPM",
+        "destinationAerodrome": "NZHN",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "OMBUB",
+          "Y273",
+          "LIKTU",
+          "Q126"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "PMNR1",
+        "departureAerodrome": "NZPM",
+        "destinationAerodrome": "NZNR",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H364",
+          "APITI",
+          "H297"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "PMNS3",
+        "departureAerodrome": "NZPM",
+        "destinationAerodrome": "NZNS",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H240"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "PMNP2",
+        "departureAerodrome": "NZPM",
+        "destinationAerodrome": "NZNP",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H336",
+          "AVKAB",
+          "H205"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "PMNP5",
+        "departureAerodrome": "NZPM",
+        "destinationAerodrome": "NZNP",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "VIROL",
+          "Q202",
+          "MEVAX",
+          "H499"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "PMPP2",
+        "departureAerodrome": "NZPM",
+        "destinationAerodrome": "NZPP",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H467"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "PMWU1",
+        "departureAerodrome": "NZPM",
+        "destinationAerodrome": "NZWU",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H336",
+          "AVKAB",
+          "H486"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "PMWN1",
+        "departureAerodrome": "NZPM",
+        "destinationAerodrome": "NZWN",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "V242",
+          "DOGAD",
+          "V112"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "PMWN4",
+        "departureAerodrome": "NZPM",
+        "destinationAerodrome": "NZWN",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H201",
+          "KAPTI",
+          "Q169",
+          "AVKEX",
+          "Q235"
+        ],
+        "remarks": {
+          "misc": [
+            "Available for use also when hazardous flight conditions exist north-east of Wellington"
+          ]
+        }
+      },
+      {
+        "id": "PMWB3",
+        "departureAerodrome": "NZPM",
+        "destinationAerodrome": "NZWB",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H201",
+          "KAPTI",
+          "Q169",
+          "AVKEX",
+          "Q472"
+        ],
+        "remarks": {}
+      }
+    ],
+    "NZPN": [
+      {
+        "id": "PNWN1",
+        "departureAerodrome": "NZPN",
+        "destinationAerodrome": "NZWN",
+        "lastUpdated": null,
+        "runwayDependant": true,
+        "routePoints": [
+          {
+            "runway": "WN RWY 34",
+            "points": [
+              "Wellington IGMUL Arrival"
+            ]
+          },
+          {
+            "runway": "WN RWY 16",
+            "points": [
+              "Wellington",
+              "AVPOD\n",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "Arrival"
+            ]
+          }
+        ],
+        "remarks": {}
+      }
+    ],
+    "NZPP": [
+      {
+        "id": "PPAA3",
+        "departureAerodrome": "NZPP",
+        "destinationAerodrome": "NZAA",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H482",
+          "KAPTI",
+          "Y273",
+          "PEPPE",
+          "H182"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "PPCH1",
+        "departureAerodrome": "NZPP",
+        "destinationAerodrome": "NZCH",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H364",
+          "WN",
+          "V306",
+          "SABDA",
+          "Y622",
+          "MESIX",
+          "H159"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "PPNS2",
+        "departureAerodrome": "NZPP",
+        "destinationAerodrome": "NZNS",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "Q388",
+          "AVKEX",
+          "Q235"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "PPPM1",
+        "departureAerodrome": "NZPP",
+        "destinationAerodrome": "NZPM",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H467"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "PPWB1",
+        "departureAerodrome": "NZPP",
+        "destinationAerodrome": "NZWB",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "Q388",
+          "AVKEX",
+          "Q294",
+          "AVPOD",
+          "Q287"
+        ],
+        "remarks": {}
+      }
+    ],
+    "NZQN": [
+      {
+        "id": "QNAA1",
+        "departureAerodrome": "NZQN",
+        "destinationAerodrome": "NZAA",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "Y569",
+          "LOVTA",
+          "Y655",
+          "POKOM",
+          "Q277"
+        ],
+        "remarks": {
+          "ac_type": "Jets"
+        }
+      },
+      {
+        "id": "QNAA4",
+        "departureAerodrome": "NZQN",
+        "destinationAerodrome": "NZAA",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "Q787",
+          "NS",
+          "Q438",
+          "IGUTA",
+          "Y175",
+          "OMKUN",
+          "Y311",
+          "DADUK",
+          "Y273",
+          "PEPPE",
+          "H182"
+        ],
+        "remarks": {
+          "ac_type": "Props"
+        }
+      },
+      {
+        "id": "QNCH1",
+        "departureAerodrome": "NZQN",
+        "destinationAerodrome": "NZCH",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "Q787",
+          "TIMJO",
+          "Y153"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "QNCH5",
+        "departureAerodrome": "NZQN",
+        "destinationAerodrome": "NZCH",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "ADLUP",
+          "Y615",
+          "ELDAK",
+          "Q196"
+        ],
+        "remarks": {
+          "comm_clrReq": "ACFT must accept a clearance and fly a published SID via ADLUP"
+        }
+      },
+      {
+        "id": "QNWN1",
+        "departureAerodrome": "NZQN",
+        "destinationAerodrome": "NZWN",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "Q787",
+          "TIMJO",
+          "Y153",
+          "DOPKI",
+          "Y533",
+          "GRETA",
+          "Y393"
+        ],
+        "remarks": {
+          "ac_type": "Jets"
+        }
+      },
+      {
+        "id": "QNWN6",
+        "departureAerodrome": "NZQN",
+        "destinationAerodrome": "NZWN",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "Q787",
+          "TIMJO",
+          "Y153",
+          "CH",
+          "Y393"
+        ],
+        "remarks": {
+          "ac_type": "Props"
+        }
+      },
+      {
+        "id": "QNWN7",
+        "departureAerodrome": "NZQN",
+        "destinationAerodrome": "NZWN",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "ADLUP",
+          "Y615",
+          "ELDAK",
+          "Q196",
+          "CH",
+          "Y393",
+          "WN"
+        ],
+        "remarks": {
+          "comm_clrReq": "ACFT must accept a clearance and fly a published SID via ADLUP"
+        }
+      }
+    ],
+    "NZRO": [
+      {
+        "id": "ROAA2",
+        "departureAerodrome": "NZRO",
+        "destinationAerodrome": "NZAA",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "Y871",
+          "DODKU",
+          "Q132",
+          "MERAS",
+          "Q119"
+        ],
+        "remarks": {
+          "alt_limit": "11,000ft and above"
+        }
+      },
+      {
+        "id": "ROAA6",
+        "departureAerodrome": "NZRO",
+        "destinationAerodrome": "NZAA",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "Q119"
+        ],
+        "remarks": {
+          "alt_limit": "9,000 ft and below"
+        }
+      },
+      {
+        "id": "ROCH1",
+        "departureAerodrome": "NZRO",
+        "destinationAerodrome": "NZCH",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "Y640",
+          "CHUTE",
+          "Y780",
+          "ABTOL",
+          "Y226",
+          "GURBO",
+          "Y804",
+          "ATBUB",
+          "H159"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "ROCH4",
+        "departureAerodrome": "NZRO",
+        "destinationAerodrome": "NZCH",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H247",
+          "TM",
+          "Q438",
+          "NS",
+          "Q787",
+          "ALADA",
+          "Y894"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "ROGS3",
+        "departureAerodrome": "NZRO",
+        "destinationAerodrome": "NZGS",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H328"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "ROHN3",
+        "departureAerodrome": "NZRO",
+        "destinationAerodrome": "NZHN",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H234",
+          "FALLS",
+          "H114"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "ROTG2",
+        "departureAerodrome": "NZRO",
+        "destinationAerodrome": "NZTG",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H310"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "ROWN1",
+        "departureAerodrome": "NZRO",
+        "destinationAerodrome": "NZWN",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "Y640",
+          "CHUTE",
+          "Y780",
+          "TARUA",
+          "H364",
+          "PM",
+          "V242",
+          "DOGAD",
+          "V112"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "ROWN5",
+        "departureAerodrome": "NZRO",
+        "destinationAerodrome": "NZWN",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H247",
+          "WU",
+          "Q367",
+          "LEDOR",
+          "Y762",
+          "TPAPA",
+          "Y738"
+        ],
+        "remarks": {
+          "misc": [
+            "Available for use also when hazardous flight conditions exist north-east of Wellington."
+          ]
+        }
+      }
+    ],
+    "NZAR": [
+      {
+        "id": "ARWR1",
+        "departureAerodrome": "NZAR",
+        "destinationAerodrome": "NZWR",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "SATLA",
+          "Q741",
+          "HOOKS",
+          "Q789",
+          "UPLIN",
+          "Q665",
+          "KAWAU",
+          "Q520",
+          "SF"
+        ],
+        "remarks": {}
+      }
+    ],
+    "NZAP": [
+      {
+        "id": "APAA3",
+        "departureAerodrome": "NZAP",
+        "destinationAerodrome": "NZAA",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "Y897",
+          "LEGER",
+          "H182"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "APAA5",
+        "departureAerodrome": "NZAP",
+        "destinationAerodrome": "NZAA",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H211"
+        ],
+        "remarks": {
+          "alt_limit": "9000 ft and below"
+        }
+      },
+      {
+        "id": "APWN2",
+        "departureAerodrome": "NZAP",
+        "destinationAerodrome": "NZWN",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H280",
+          "TARUA",
+          "H364",
+          "PM",
+          "V242",
+          "DOGAD",
+          "V112"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "APWN6",
+        "departureAerodrome": "NZAP",
+        "destinationAerodrome": "NZWN",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H191",
+          "TM",
+          "H247",
+          "WU",
+          "Q367",
+          "LEDOR",
+          "Y762",
+          "TPAPA",
+          "Y738"
+        ],
+        "remarks": {
+          "misc": [
+            "Available for use also when hazardous flight conditions exist north-east of Wellington"
+          ]
+        }
+      }
+    ],
+    "NZTG": [
+      {
+        "id": "TGAA1",
+        "departureAerodrome": "NZTG",
+        "destinationAerodrome": "NZAA",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H117",
+          "DODKU",
+          "Q132",
+          "MERAS",
+          "Q119"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "TGCH3",
+        "departureAerodrome": "NZTG",
+        "destinationAerodrome": "NZCH",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H310",
+          "RO",
+          "Y640",
+          "CHUTE",
+          "Y780",
+          "ABTOL",
+          "Y226",
+          "GURBO",
+          "Y804",
+          "ATBUB",
+          "H159"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "TGGS3",
+        "departureAerodrome": "NZTG",
+        "destinationAerodrome": "NZGS",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H117"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "TGHN3",
+        "departureAerodrome": "NZTG",
+        "destinationAerodrome": "NZHN",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H114"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "TGRO2",
+        "departureAerodrome": "NZTG",
+        "destinationAerodrome": "NZRO",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H310"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "TGWN1",
+        "departureAerodrome": "NZTG",
+        "destinationAerodrome": "NZWN",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H310",
+          "RO",
+          "Y640",
+          "CHUTE",
+          "Y780",
+          "TARUA",
+          "H364",
+          "PM",
+          "V242",
+          "DOGAD",
+          "V112"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "TGWN5",
+        "departureAerodrome": "NZTG",
+        "destinationAerodrome": "NZWN",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H310",
+          "RO",
+          "H247",
+          "WU",
+          "Q367",
+          "LEDOR",
+          "Y762",
+          "TPAPA",
+          "Y738"
+        ],
+        "remarks": {
+          "misc": [
+            "Available for use also when hazardous flight conditions exist north-east of Wellington"
+          ]
+        }
+      }
+    ],
+    "NZTU": [
+      {
+        "id": "TUCH1",
+        "departureAerodrome": "NZTU",
+        "destinationAerodrome": "NZCH",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "Q196"
+        ],
+        "remarks": {
+          "alt_maintain": "For flights at 11,000 ft or above, maintain 10,000 ft to ELDAK"
+        }
+      },
+      {
+        "id": "TUWN2",
+        "departureAerodrome": "NZTU",
+        "destinationAerodrome": "NZWN",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "Q196",
+          "CH",
+          "Y393"
+        ],
+        "remarks": {
+          "alt_maintain": "For flights at 11,000 ft or above, maintain 10,000 ft to ELDAK"
+        }
+      }
+    ],
+    "NZWS": [
+      {
+        "id": "WSWN2",
+        "departureAerodrome": "NZWS",
+        "destinationAerodrome": "NZWN",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H267"
+        ],
+        "remarks": {
+          "nav_otherReq": "Non-RNAV aircraft expect radar vectors after SIMZI"
+        }
+      }
+    ],
+    "NZWF": [
+      {
+        "id": "WFCH2",
+        "departureAerodrome": "NZWF",
+        "destinationAerodrome": "NZCH",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "TIMJO",
+          "Y153",
+          "CH"
+        ],
+        "remarks": {}
+      }
+    ],
+    "NZWU": [
+      {
+        "id": "WUAA1",
+        "departureAerodrome": "NZWU",
+        "destinationAerodrome": "NZAA",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "Q647",
+          "DAGOM",
+          "Y273",
+          "PEPPE",
+          "H182"
+        ],
+        "remarks": {
+          "alt_maintain": "For flights at 11,000 ft or above, maintain 10,000 ft to 30 WU"
+        }
+      },
+      {
+        "id": "WUHN3",
+        "departureAerodrome": "NZWU",
+        "destinationAerodrome": "NZHN",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "Q647",
+          "DAGOM",
+          "Y273",
+          "LIKTU",
+          "Q126"
+        ],
+        "remarks": {
+          "alt_maintain": "For flights at 11,000 ft or above, maintain 10,000 ft to 30 WU"
+        }
+      },
+      {
+        "id": "WUPM3",
+        "departureAerodrome": "NZWU",
+        "destinationAerodrome": "NZPM",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H486",
+          "AVKAB",
+          "H336"
+        ],
+        "remarks": {
+          "alt_maintain": "For flights at 11,000 ft or above, maintain 10,000 ft to 30 WU"
+        }
+      },
+      {
+        "id": "WUNS1",
+        "departureAerodrome": "NZWU",
+        "destinationAerodrome": "NZNS",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "Q367",
+          "DUMOT",
+          "H240"
+        ],
+        "remarks": {
+          "alt_maintain": "For flights at 11,000 ft or above, maintain 10,000 ft to 30 WU"
+        }
+      },
+      {
+        "id": "WUNP1",
+        "departureAerodrome": "NZWU",
+        "destinationAerodrome": "NZNP",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H486",
+          "MEVAX",
+          "H499"
+        ],
+        "remarks": {
+          "alt_maintain": "For flights at 11,000 ft or above, maintain 10,000 ft to MEVAX"
+        }
+      },
+      {
+        "id": "WUWN3",
+        "departureAerodrome": "NZWU",
+        "destinationAerodrome": "NZWN",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "Q367",
+          "LEDOR",
+          "Y762",
+          "TPAPA",
+          "Y738"
+        ],
+        "remarks": {
+          "alt_maintain": "For flights at 11,000 ft or above, maintain 10,000 ft to 30 WU"
+        }
+      }
+    ],
+    "NZWR": [
+      {
+        "id": "WRAA3",
+        "departureAerodrome": "NZWR",
+        "destinationAerodrome": "NZAA",
+        "lastUpdated": null,
+        "runwayDependant": true,
+        "routePoints": [
+          {
+            "runway": "AA RWY 23L",
+            "points": [
+              "SF",
+              "Q520",
+              "APABO"
+            ]
+          },
+          {
+            "runway": "AA RWY 05R",
+            "points": [
+              "SF",
+              "H150",
+              "UKAPA"
+            ]
+          }
+        ],
+        "remarks": {
+          "nav_otherReq": "RNAV 1 GNSS Required"
+        }
+      },
+      {
+        "id": "WRWN3",
+        "departureAerodrome": "NZWR",
+        "destinationAerodrome": "NZWN",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "SF",
+          "H379",
+          "AA",
+          "H384",
+          "KARRL",
+          "Y506",
+          "TPAPA",
+          "Y738"
+        ],
+        "remarks": {
+          "alt_reachBy": "Reach cleared level by 10 NM prior to SILVO"
+        }
+      }
+    ],
+    "NZWP": [
+      {
+        "id": "WPCH1",
+        "departureAerodrome": "NZWP",
+        "destinationAerodrome": "NZCH",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H182",
+          "AA",
+          "H384",
+          "NP",
+          "H252",
+          "NS",
+          "Y288"
+        ],
+        "remarks": {
+          "alt_limit": "FL240 and above"
+        }
+      },
+      {
+        "id": "WPCH6",
+        "departureAerodrome": "NZWP",
+        "destinationAerodrome": "NZCH",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H182",
+          "AA",
+          "H384",
+          "NP",
+          "Q137",
+          "VELGA",
+          "Y894"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "WPHN2",
+        "departureAerodrome": "NZWP",
+        "destinationAerodrome": "NZHN",
+        "lastUpdated": null,
+        "runwayDependant": true,
+        "routePoints": [
+          {
+            "runway": "WP RWY 03",
+            "points": [
+              "Q741",
+              "MERAS",
+              "Q401"
+            ]
+          },
+          {
+            "runway": "WP RWY 21",
+            "points": [
+              "Q718"
+            ]
+          }
+        ],
+        "remarks": {
+          "nav_otherReq": "AVBL RNAV and/or GNSS APV ACFT only"
+        }
+      },
+      {
+        "id": "WPOH3",
+        "departureAerodrome": "NZWP",
+        "destinationAerodrome": "NZOH",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H182",
+          "AA",
+          "H211",
+          "LAKES",
+          "Y666",
+          "IDLUR"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "WPWN1",
+        "departureAerodrome": "NZWP",
+        "destinationAerodrome": "NZWN",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H182",
+          "AA",
+          "H384",
+          "KARRL",
+          "Y506",
+          "TPAPA",
+          "Y738"
+        ],
+        "remarks": {
+          "alt_reachBy": "Reach cleared level by 10 NM prior to SILVO"
+        }
+      }
+    ],
+    "NZWB": [
+      {
+        "id": "WBAA1",
+        "departureAerodrome": "NZWB",
+        "destinationAerodrome": "NZAA",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "Q472",
+          "IPMIR",
+          "Q566",
+          "AKAVI",
+          "Y175",
+          "OMKUN",
+          "Y311",
+          "DADUK",
+          "Y273",
+          "PEPPE",
+          "H182"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "WBCH3",
+        "departureAerodrome": "NZWB",
+        "destinationAerodrome": "NZCH",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H157",
+          "WAIMA",
+          "Q421",
+          "ONOLA",
+          "V306",
+          "ATBUB",
+          "H159"
+        ],
+        "remarks": {
+          "alt_maintain": "For flights at 11,000 ft or above, maintain 10,000 ft to ONOLA"
+        }
+      },
+      {
+        "id": "WBNS1",
+        "departureAerodrome": "NZWB",
+        "destinationAerodrome": "NZNS",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H133"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "WBOH3",
+        "departureAerodrome": "NZWB",
+        "destinationAerodrome": "NZOH",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "Q472",
+          "AVKEX",
+          "Q169",
+          "KAPTI",
+          "Q555",
+          "BINIT",
+          "H467",
+          "FOXTN",
+          "H313"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "WBPM2",
+        "departureAerodrome": "NZWB",
+        "destinationAerodrome": "NZPM",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "Q472",
+          "AVKEX",
+          "Q169",
+          "KAPTI",
+          "H201"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "WBPP1",
+        "departureAerodrome": "NZWB",
+        "destinationAerodrome": "NZPP",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "Q287",
+          "AVPOD",
+          "Q294",
+          "AVKEX",
+          "Q388"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "WBWN1",
+        "departureAerodrome": "NZWB",
+        "destinationAerodrome": "NZWN",
+        "lastUpdated": null,
+        "runwayDependant": true,
+        "routePoints": [
+          {
+            "runway": "WN RWY 34",
+            "points": [
+              "Wellington SULRI Arrival"
+            ]
+          },
+          {
+            "runway": "WN RWY 16",
+            "points": [
+              "Wellington AVPOD Arrival"
+            ]
+          }
+        ],
+        "remarks": {}
+      }
+    ],
+    "NZWK": [
+      {
+        "id": "WKAA3",
+        "departureAerodrome": "NZWK",
+        "destinationAerodrome": "NZAA",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H117",
+          "DODKU",
+          "Q132",
+          "MERAS",
+          "Q119"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "WKHN3",
+        "departureAerodrome": "NZWK",
+        "destinationAerodrome": "NZHN",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H480",
+          "RO",
+          "H234",
+          "FALLS",
+          "H114"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "WKWN1",
+        "departureAerodrome": "NZWK",
+        "destinationAerodrome": "NZWN",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "Y780",
+          "TARUA",
+          "H364",
+          "PM",
+          "V242",
+          "DOGAD",
+          "V112"
+        ],
+        "remarks": {}
+      }
+    ],
+    "NZNP": [
+      {
+        "id": "NPAA3",
+        "departureAerodrome": "NZNP",
+        "destinationAerodrome": "NZAA",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H479",
+          "DADUK",
+          "Y273",
+          "PEPPE",
+          "H182"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "NPCH1",
+        "departureAerodrome": "NZNP",
+        "destinationAerodrome": "NZCH",
+        "lastUpdated": null,
+        "runwayDependant": true,
+        "routePoints": [
+          {
+            "runway": "NP RWY 05",
+            "points": [
+              "Y738",
+              "DAPNO",
+              "Q335",
+              "PEDPO",
+              "Y894"
+            ]
+          },
+          {
+            "runway": "NP RWY 23",
+            "points": [
+              "Q137",
+              "VELGA",
+              "Y894"
+            ]
+          }
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "NPHN2",
+        "departureAerodrome": "NZNP",
+        "destinationAerodrome": "NZHN",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H479"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "NPPM1",
+        "departureAerodrome": "NZNP",
+        "destinationAerodrome": "NZPM",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H205",
+          "AVKAB",
+          "H336"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "NPPM4",
+        "departureAerodrome": "NZNP",
+        "destinationAerodrome": "NZPM",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H499",
+          "MEVAX",
+          "Q202",
+          "VIROL"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "NPPM7",
+        "departureAerodrome": "NZNP",
+        "destinationAerodrome": "NZPM",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "VELGA",
+          "Q518",
+          "MEVAX",
+          "Q202",
+          "VIROL"
+        ],
+        "remarks": {
+          "misc": [
+            "For use when G351 is active"
+          ]
+        }
+      },
+      {
+        "id": "NPWU1",
+        "departureAerodrome": "NZNP",
+        "destinationAerodrome": "NZWU",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H499",
+          "MEVAX",
+          "H486"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "NPWN1",
+        "departureAerodrome": "NZNP",
+        "destinationAerodrome": "NZWN",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "Y738"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "NPWN5",
+        "departureAerodrome": "NZNP",
+        "destinationAerodrome": "NZWN",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "VELGA",
+          "Q518",
+          "PADMU",
+          "Y738"
+        ],
+        "remarks": {
+          "misc": [
+            "For use when G351 is active"
+          ]
+        }
+      },
+      {
+        "id": "NPWU4",
+        "departureAerodrome": "NZNP",
+        "destinationAerodrome": "NZWU",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "VELGA",
+          "Q518",
+          "MEVAX",
+          "H486"
+        ],
+        "remarks": {
+          "misc": [
+            "For use when G351 is active"
+          ]
+        }
+      }
+    ],
+    "NZNR": [
+      {
+        "id": "NRAA3",
+        "departureAerodrome": "NZNR",
+        "destinationAerodrome": "NZAA",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H372",
+          "MOOSE",
+          "Y601",
+          "DODKU",
+          "Q132",
+          "MERAS",
+          "Q119"
+        ],
+        "remarks": {
+          "alt_maintain": "For flights at 11,000 ft or above, maintain 10,000 ft to 30 NR"
+        }
+      },
+      {
+        "id": "NRCH3",
+        "departureAerodrome": "NZNR",
+        "destinationAerodrome": "NZCH",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H103",
+          "RIDLA",
+          "Y820",
+          "ABTOL",
+          "Y226",
+          "GURBO",
+          "Y804",
+          "ATBUB",
+          "H159"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "NRGS3",
+        "departureAerodrome": "NZNR",
+        "destinationAerodrome": "NZGS",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H245"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "NRGS5",
+        "departureAerodrome": "NZNR",
+        "destinationAerodrome": "NZGS",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H386"
+        ],
+        "remarks": {
+          "alt_maintain": "For flights at 11,000 ft or above, maintain 10,000 ft to 30 NR"
+        }
+      },
+      {
+        "id": "NRHN1",
+        "departureAerodrome": "NZNR",
+        "destinationAerodrome": "NZHN",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H372",
+          "RO",
+          "H234",
+          "FALLS",
+          "H114"
+        ],
+        "remarks": {
+          "alt_maintain": "For flights at 11,000 ft or above, maintain 10,000 ft to 30 NR"
+        }
+      },
+      {
+        "id": "NRPM3",
+        "departureAerodrome": "NZNR",
+        "destinationAerodrome": "NZPM",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H103",
+          "RIDLA",
+          "Q800",
+          "IRMIX",
+          "H240",
+          "PM"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "NRPM4",
+        "departureAerodrome": "NZNR",
+        "destinationAerodrome": "NZPM",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H240"
+        ],
+        "remarks": {
+          "alt_limit": "9000 ft or below"
+        }
+      },
+      {
+        "id": "NRWO1",
+        "departureAerodrome": "NZNR",
+        "destinationAerodrome": "NZWO",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H245"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "NRWN1",
+        "departureAerodrome": "NZNR",
+        "destinationAerodrome": "NZWN",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H103",
+          "RIDLA",
+          "H201",
+          "PM",
+          "V242",
+          "DOGAD",
+          "V112"
+        ],
+        "remarks": {}
+      }
+    ],
+    "NZMC": [
+      {
+        "id": "MCCH3",
+        "departureAerodrome": "NZMC",
+        "destinationAerodrome": "NZCH",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "MAMUS",
+          "Y735",
+          "DOPKI",
+          "Y153"
+        ],
+        "remarks": {}
+      }
+    ],
+    "NZKK": [
+      {
+        "id": "KKAA2",
+        "departureAerodrome": "NZKK",
+        "destinationAerodrome": "NZAA",
+        "lastUpdated": null,
+        "runwayDependant": true,
+        "routePoints": [
+          {
+            "runway": "AA RWY 23L",
+            "points": [
+              "H275",
+              "SF",
+              "Q520",
+              "APABO"
+            ]
+          },
+          {
+            "runway": "AA RWY 05R",
+            "points": [
+              "Q797",
+              "UKAPA"
+            ]
+          }
+        ],
+        "remarks": {
+          "nav_otherReq": "RNAV 1 GNSS Required"
+        }
+      }
+    ],
+    "NZKT": [
+      {
+        "id": "KTAA3",
+        "departureAerodrome": "NZKT",
+        "destinationAerodrome": "NZAA",
+        "lastUpdated": null,
+        "runwayDependant": true,
+        "routePoints": [
+          {
+            "runway": "AA RWY 23L",
+            "points": [
+              "G591",
+              "PERAS",
+              "Q659",
+              "APABO"
+            ]
+          },
+          {
+            "runway": "AA RWY 05R",
+            "points": [
+              "G591",
+              "UKAPA"
+            ]
+          }
+        ],
+        "remarks": {
+          "nav_otherReq": "RNAV 1 GNSS Required"
+        }
+      }
+    ],
+    "NZCH": [
+      {
+        "id": "CHAA1",
+        "departureAerodrome": "NZCH",
+        "destinationAerodrome": "NZAA",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "Y175",
+          "OMKUN",
+          "Y655",
+          "POKOM",
+          "Q277"
+        ],
+        "remarks": {
+          "ac_type": "Jets"
+        }
+      },
+      {
+        "id": "CHAA6",
+        "departureAerodrome": "NZCH",
+        "destinationAerodrome": "NZAA",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H110",
+          "PORAM",
+          "Y781",
+          "RIVTA",
+          "Y523",
+          "GULOV",
+          "Y175",
+          "OMKUN",
+          "Y311",
+          "DADUK",
+          "Y273",
+          "PEPPE",
+          "H182"
+        ],
+        "remarks": {
+          "ac_type": "Props"
+        }
+      },
+      {
+        "id": "CHCI1",
+        "departureAerodrome": "NZCH",
+        "destinationAerodrome": "NZCI",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "Q854"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "CHDN1",
+        "departureAerodrome": "NZCH",
+        "destinationAerodrome": "NZDN",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "Y714",
+          "IDARA",
+          "Y814",
+          "MIPAK"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "CHGM1",
+        "departureAerodrome": "NZCH",
+        "destinationAerodrome": "NZGM",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "AVOCA",
+          "Q309",
+          "APASA",
+          "PAROA"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "CHHN3",
+        "departureAerodrome": "NZCH",
+        "destinationAerodrome": "NZHN",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "Y175",
+          "OPABI",
+          "Q126"
+        ],
+        "remarks": {
+          "ac_type": "Jets"
+        }
+      },
+      {
+        "id": "CHHN5",
+        "departureAerodrome": "NZCH",
+        "destinationAerodrome": "NZHN",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H110",
+          "PORAM",
+          "Y781",
+          "RIVTA",
+          "Y523",
+          "GULOV",
+          "Y175",
+          "OPABI",
+          "Q126"
+        ],
+        "remarks": {
+          "ac_type": "Props"
+        }
+      },
+      {
+        "id": "CHHK3",
+        "departureAerodrome": "NZCH",
+        "destinationAerodrome": "NZHK",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "Q309"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "CHNV3",
+        "departureAerodrome": "NZCH",
+        "destinationAerodrome": "NZNV",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "Y714",
+          "IDARA",
+          "Y676"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "CHMC1",
+        "departureAerodrome": "NZCH",
+        "destinationAerodrome": "NZMC",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "Y266",
+          "SUNAR",
+          "Q360",
+          "MAMUS"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "CHNR2",
+        "departureAerodrome": "NZCH",
+        "destinationAerodrome": "NZNR",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "Y393",
+          "OMDOX",
+          "Y465",
+          "KAMET",
+          "H467",
+          "BINIT",
+          "Y737",
+          "PM",
+          "H429",
+          "SELDU",
+          "H297"
+        ],
+        "remarks": {
+          "ac_type": "Jets"
+        }
+      },
+      {
+        "id": "CHNR4",
+        "departureAerodrome": "NZCH",
+        "destinationAerodrome": "NZNR",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "Y819",
+          "AGSOP",
+          "Y737",
+          "PM",
+          "H429",
+          "SELDU",
+          "H297"
+        ],
+        "remarks": {
+          "ac_type": "Props"
+        }
+      },
+      {
+        "id": "CHNS2",
+        "departureAerodrome": "NZCH",
+        "destinationAerodrome": "NZNS",
+        "lastUpdated": null,
+        "runwayDependant": true,
+        "routePoints": [
+          {
+            "runway": "NS RWY 02",
+            "points": [
+              "H110",
+              "PORAM",
+              "Y781",
+              "BISEB"
+            ]
+          },
+          {
+            "runway": "NS RWY 20",
+            "points": [
+              "H110",
+              "PORAM",
+              "Y781",
+              "BISEB",
+              "H110",
+              "GUNEL"
+            ]
+          }
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "CHNP1",
+        "departureAerodrome": "NZCH",
+        "destinationAerodrome": "NZNP",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H110",
+          "PORAM",
+          "Y781",
+          "RIVTA",
+          "Y523",
+          "GULOV",
+          "Y175",
+          "OMKUN",
+          "H499"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "CHOH3",
+        "departureAerodrome": "NZCH",
+        "destinationAerodrome": "NZOH",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "Y393",
+          "OMDOX",
+          "Y465",
+          "KAMET",
+          "H467",
+          "BINIT"
+        ],
+        "remarks": {
+          "ac_type": "Jets"
+        }
+      },
+      {
+        "id": "CHOH5",
+        "departureAerodrome": "NZCH",
+        "destinationAerodrome": "NZOH",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "Y819",
+          "AGSOP",
+          "Y737",
+          "BINIT"
+        ],
+        "remarks": {
+          "ac_type": "Props"
+        }
+      },
+      {
+        "id": "CHPM3",
+        "departureAerodrome": "NZCH",
+        "destinationAerodrome": "NZPM",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "Y393",
+          "OMDOX",
+          "Y465",
+          "KAMET",
+          "H467",
+          "BINIT",
+          "Y737"
+        ],
+        "remarks": {
+          "ac_type": "Jets"
+        }
+      },
+      {
+        "id": "CHPM5",
+        "departureAerodrome": "NZCH",
+        "destinationAerodrome": "NZPM",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "Y819",
+          "AGSOP",
+          "Y737"
+        ],
+        "remarks": {
+          "ac_type": "Props"
+        }
+      },
+      {
+        "id": "CHPP2",
+        "departureAerodrome": "NZCH",
+        "destinationAerodrome": "NZPP",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "Y819",
+          "AGSOP",
+          "Y295"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "CHQN3",
+        "departureAerodrome": "NZCH",
+        "destinationAerodrome": "NZQN",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "Y266"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "CHRO2",
+        "departureAerodrome": "NZCH",
+        "destinationAerodrome": "NZRO",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "Y393",
+          "OMDOX",
+          "Y465",
+          "KAMET",
+          "H467",
+          "FOXTN",
+          "H313",
+          "OH",
+          "H182",
+          "ARETI",
+          "Y539"
+        ],
+        "remarks": {
+          "ac_type": "Jets",
+          "alt_limit": "FL250 and above"
+        }
+      },
+      {
+        "id": "CHRO6",
+        "departureAerodrome": "NZCH",
+        "destinationAerodrome": "NZRO",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "Y819",
+          "AGSOP",
+          "Y737",
+          "GOPRO",
+          "H482",
+          "KAPTI",
+          "Y273",
+          "DAGOM",
+          "Y715",
+          "ARETI",
+          "Y539"
+        ],
+        "remarks": {
+          "ac_type": "Props"
+        }
+      },
+      {
+        "id": "CHTG1",
+        "departureAerodrome": "NZCH",
+        "destinationAerodrome": "NZTG",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "Y393",
+          "OMDOX",
+          "Y465",
+          "KAMET",
+          "H467",
+          "FOXTN",
+          "H313",
+          "OH",
+          "H182",
+          "ARETI",
+          "Y539",
+          "PARRA",
+          "Y505"
+        ],
+        "remarks": {
+          "ac_type": "Jets",
+          "alt_limit": "FL250 and above"
+        }
+      },
+      {
+        "id": "CHTG6",
+        "departureAerodrome": "NZCH",
+        "destinationAerodrome": "NZTG",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "Y819",
+          "AGSOP",
+          "Y737",
+          "GOPRO",
+          "H482",
+          "KAPTI",
+          "Y273",
+          "DAGOM",
+          "Y715",
+          "ARETI",
+          "Y539",
+          "PARRA",
+          "Y505"
+        ],
+        "remarks": {
+          "ac_type": "Props"
+        }
+      },
+      {
+        "id": "CHTU3",
+        "departureAerodrome": "NZCH",
+        "destinationAerodrome": "NZTU",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "Q196"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "CHWF2",
+        "departureAerodrome": "NZCH",
+        "destinationAerodrome": "NZWF",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "CH",
+          "Y266",
+          "ELRUV"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "CHWN1",
+        "departureAerodrome": "NZCH",
+        "destinationAerodrome": "NZWN",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "Y393"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "CHWN9",
+        "departureAerodrome": "NZCH",
+        "destinationAerodrome": "NZWN",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H424",
+          "GOOSE",
+          "V306",
+          "ONOLA",
+          "Q421",
+          "OMDOX",
+          "Y393"
+        ],
+        "remarks": {
+          "alt_limit": "10,000 ft or below"
+        }
+      },
+      {
+        "id": "CHWP1",
+        "departureAerodrome": "NZCH",
+        "destinationAerodrome": "NZWP",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "Y175",
+          "OMKUN",
+          "Y655",
+          "POKOM",
+          "Q277",
+          "AA",
+          "H182"
+        ],
+        "remarks": {
+          "ac_type": "Jets"
+        }
+      },
+      {
+        "id": "CHWP6",
+        "departureAerodrome": "NZCH",
+        "destinationAerodrome": "NZWP",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H110",
+          "PORAM",
+          "Y781",
+          "RIVTA",
+          "Y523",
+          "GULOV",
+          "Y175",
+          "OMKUN",
+          "Y311",
+          "DADUK",
+          "Y273",
+          "PEPPE",
+          "H182"
+        ],
+        "remarks": {
+          "ac_type": "Props"
+        }
+      },
+      {
+        "id": "CHWB1",
+        "departureAerodrome": "NZCH",
+        "destinationAerodrome": "NZWB",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "Y819",
+          "ELPIT",
+          "H157"
+        ],
+        "remarks": {}
+      }
+    ],
+    "NZWN": [
+      {
+        "id": "WNAA2",
+        "departureAerodrome": "NZWN",
+        "destinationAerodrome": "NZAA",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "Y127",
+          "OPABI",
+          "Q277"
+        ],
+        "remarks": {
+          "ac_type": "Jets"
+        }
+      },
+      {
+        "id": "WNAA5",
+        "departureAerodrome": "NZWN",
+        "destinationAerodrome": "NZAA",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "Y631",
+          "MEVAX",
+          "Q412",
+          "OPABI",
+          "Q126",
+          "LIKTU",
+          "Y273",
+          "PEPPE",
+          "H182"
+        ],
+        "remarks": {
+          "ac_type": "Props"
+        }
+      },
+      {
+        "id": "WNAA8",
+        "departureAerodrome": "NZWN",
+        "destinationAerodrome": "NZAA",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "KAMET",
+          "H467",
+          "FOXTN",
+          "H313",
+          "OH",
+          "H182",
+          "ARETI",
+          "Y539",
+          "PARRA",
+          "Y505",
+          "TG",
+          "H117",
+          "DODKU"
+        ],
+        "remarks": {
+          "ac_type": "Jets"
+        }
+      },
+      {
+        "id": "WNCI2",
+        "departureAerodrome": "NZWN",
+        "destinationAerodrome": "NZCI",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "Q611"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "WNCH3",
+        "departureAerodrome": "NZWN",
+        "destinationAerodrome": "NZCH",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "V306",
+          "SABDA",
+          "Y622",
+          "MESIX",
+          "H159"
+        ],
+        "remarks": {
+          "ac_type": "Jets"
+        }
+      },
+      {
+        "id": "WNCH5",
+        "departureAerodrome": "NZWN",
+        "destinationAerodrome": "NZCH",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "Y502",
+          "VENAM",
+          "Y804",
+          "ATBUB",
+          "H159"
+        ],
+        "remarks": {
+          "ac_type": "Props"
+        }
+      },
+      {
+        "id": "WNDN1",
+        "departureAerodrome": "NZWN",
+        "destinationAerodrome": "NZDN",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "V306",
+          "SABDA",
+          "Y622",
+          "MESIX",
+          "Y676",
+          "IDARA",
+          "Y814",
+          "MIPAK"
+        ],
+        "remarks": {
+          "ac_type": "Jets"
+        }
+      },
+      {
+        "id": "WNDN8",
+        "departureAerodrome": "NZWN",
+        "destinationAerodrome": "NZDN",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "Y502",
+          "VENAM",
+          "Y804",
+          "ATBUB",
+          "H159",
+          "CH",
+          "Y714",
+          "IDARA",
+          "Y814",
+          "MIPAK",
+          "Q852",
+          "SW"
+        ],
+        "remarks": {
+          "ac_type": "Props"
+        }
+      },
+      {
+        "id": "WNGS1",
+        "departureAerodrome": "NZWN",
+        "destinationAerodrome": "NZGS",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "KAMET",
+          "H467",
+          "BINIT",
+          "Y737",
+          "PM",
+          "H429",
+          "SELDU",
+          "H297",
+          "NR",
+          "H245"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "WNHN2",
+        "departureAerodrome": "NZWN",
+        "destinationAerodrome": "NZHN",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "KAPTI",
+          "Y273",
+          "LIKTU",
+          "Q126"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "WNHN7",
+        "departureAerodrome": "NZWN",
+        "destinationAerodrome": "NZHN",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "KAPTI",
+          "Y273",
+          "DAGOM",
+          "Y715",
+          "ARETI",
+          "Y539",
+          "RO",
+          "H234",
+          "FALLS",
+          "H114",
+          "GODOK"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "WNHS2",
+        "departureAerodrome": "NZWN",
+        "destinationAerodrome": "NZHS",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "KAMET",
+          "H467",
+          "BINIT",
+          "Y737",
+          "PM",
+          "H201",
+          "OPAPA"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "WNNV2",
+        "departureAerodrome": "NZWN",
+        "destinationAerodrome": "NZNV",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "V306",
+          "SABDA",
+          "Y622",
+          "MESIX",
+          "Y676"
+        ],
+        "remarks": {
+          "ac_type": "Jets"
+        }
+      },
+      {
+        "id": "WNNV5",
+        "departureAerodrome": "NZWN",
+        "destinationAerodrome": "NZNV",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "Y502",
+          "VENAM",
+          "Y804",
+          "ATBUB",
+          "H159",
+          "MESIX",
+          "Y676"
+        ],
+        "remarks": {
+          "ac_type": "Props"
+        }
+      },
+      {
+        "id": "WNNR2",
+        "departureAerodrome": "NZWN",
+        "destinationAerodrome": "NZNR",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "KAMET",
+          "H467",
+          "BINIT",
+          "Y737",
+          "PM",
+          "H429",
+          "SELDU",
+          "H297"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "WNNS1",
+        "departureAerodrome": "NZWN",
+        "destinationAerodrome": "NZNS",
+        "lastUpdated": null,
+        "runwayDependant": true,
+        "routePoints": [
+          {
+            "runway": "WN RWY 34",
+            "points": [
+              "NULKO",
+              "Q235"
+            ]
+          },
+          {
+            "runway": "WN RWY 16",
+            "points": [
+              "LUBSI",
+              "H133"
+            ]
+          }
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "WNNP1",
+        "departureAerodrome": "NZWN",
+        "destinationAerodrome": "NZNP",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "Y631",
+          "MEVAX",
+          "H499"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "WNOH2",
+        "departureAerodrome": "NZWN",
+        "destinationAerodrome": "NZOH",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "KAMET",
+          "H467",
+          "BINIT"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "WNPM1",
+        "departureAerodrome": "NZWN",
+        "destinationAerodrome": "NZPM",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "KAMET",
+          "H467",
+          "BINIT",
+          "Y737"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "WNPN3",
+        "departureAerodrome": "NZWN",
+        "destinationAerodrome": "NZPN",
+        "lastUpdated": null,
+        "runwayDependant": true,
+        "routePoints": [
+          {
+            "runway": "WN RWY 34",
+            "points": [
+              "AVPOD"
+            ]
+          },
+          {
+            "runway": "WN RWY 16",
+            "points": [
+              "Q100"
+            ]
+          }
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "WNQN3",
+        "departureAerodrome": "NZWN",
+        "destinationAerodrome": "NZQN",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "V306",
+          "SABDA",
+          "Y622",
+          "MESIX",
+          "H159",
+          "CH",
+          "Y266"
+        ],
+        "remarks": {
+          "ac_type": "Jets"
+        }
+      },
+      {
+        "id": "WNQN5",
+        "departureAerodrome": "NZWN",
+        "destinationAerodrome": "NZQN",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "Y502",
+          "VENAM",
+          "Y804",
+          "ATBUB",
+          "H159",
+          "CH",
+          "Y266"
+        ],
+        "remarks": {
+          "ac_type": "Props"
+        }
+      },
+      {
+        "id": "WNRO1",
+        "departureAerodrome": "NZWN",
+        "destinationAerodrome": "NZRO",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "KAPTI",
+          "Y273",
+          "DAGOM",
+          "Y715",
+          "ARETI",
+          "Y539"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "WNAP3",
+        "departureAerodrome": "NZWN",
+        "destinationAerodrome": "NZAP",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "KAPTI",
+          "Y273",
+          "DAGOM",
+          "Y715",
+          "ARETI",
+          "H116"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "WNTG1",
+        "departureAerodrome": "NZWN",
+        "destinationAerodrome": "NZTG",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "KAPTI",
+          "Y273",
+          "DAGOM",
+          "Y715",
+          "ARETI",
+          "Y539",
+          "PARRA",
+          "Y505"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "WNTU3",
+        "departureAerodrome": "NZWN",
+        "destinationAerodrome": "NZTU",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "Y502",
+          "VENAM",
+          "Y804",
+          "ATBUB",
+          "H159",
+          "CH",
+          "Q196"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "WNWU3",
+        "departureAerodrome": "NZWN",
+        "destinationAerodrome": "NZWU",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "KAPTI",
+          "H482"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "WNWS1",
+        "departureAerodrome": "NZWN",
+        "destinationAerodrome": "NZWS",
+        "lastUpdated": null,
+        "runwayDependant": true,
+        "routePoints": [
+          {
+            "runway": "WN RWY 34",
+            "points": [
+              "NULKO",
+              "Q235",
+              "BOLOX",
+              "H463",
+              "NS",
+              "H267"
+            ]
+          },
+          {
+            "runway": "WN RWY 16",
+            "points": [
+              "LUBSI",
+              "H133",
+              "NS",
+              "H267"
+            ]
+          }
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "WNWK3",
+        "departureAerodrome": "NZWN",
+        "destinationAerodrome": "NZWK",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "KAPTI",
+          "Y273",
+          "DAGOM",
+          "Y715",
+          "ARETI",
+          "Y539",
+          "RO",
+          "H480"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "WNWR2",
+        "departureAerodrome": "NZWN",
+        "destinationAerodrome": "NZWR",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "Y631",
+          "MEVAX",
+          "Q412",
+          "OPABI",
+          "Q126",
+          "LIKTU",
+          "Y273",
+          "PEPPE",
+          "H182",
+          "AA",
+          "H379",
+          "SF"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "WNWP2",
+        "departureAerodrome": "NZWN",
+        "destinationAerodrome": "NZWP",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "Y127",
+          "OPABI",
+          "Q277",
+          "AA",
+          "H182"
+        ],
+        "remarks": {
+          "ac_type": "Jets"
+        }
+      },
+      {
+        "id": "WNWP4",
+        "departureAerodrome": "NZWN",
+        "destinationAerodrome": "NZWP",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "Y631",
+          "MEVAX",
+          "Q412",
+          "OPABI",
+          "Q126",
+          "LIKTU",
+          "Y273",
+          "PEPPE",
+          "H182"
+        ],
+        "remarks": {
+          "ac_type": "Props"
+        }
+      },
+      {
+        "id": "WNWP7",
+        "departureAerodrome": "NZWN",
+        "destinationAerodrome": "NZWP",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "KAMET",
+          "H467",
+          "FOXTN",
+          "H313",
+          "OH",
+          "H182",
+          "ARETI",
+          "Y539",
+          "PARRA",
+          "Y505",
+          "TG",
+          "H117",
+          "DODKU",
+          "Q132",
+          "MERAS",
+          "Q119",
+          "AA",
+          "H182"
+        ],
+        "remarks": {
+          "ac_type": "Jets"
+        }
+      },
+      {
+        "id": "WNWB3",
+        "departureAerodrome": "NZWN",
+        "destinationAerodrome": "NZWB",
+        "lastUpdated": null,
+        "runwayDependant": true,
+        "routePoints": [
+          {
+            "runway": "WN RWY 34",
+            "points": [
+              "AVPOD"
+            ]
+          },
+          {
+            "runway": "WN RWY 16",
+            "points": [
+              "Q100"
+            ]
+          }
+        ],
+        "remarks": {}
+      }
+    ],
+    "NZWO": [
+      {
+        "id": "WOGS2",
+        "departureAerodrome": "NZWO",
+        "destinationAerodrome": "NZGS",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "H245"
+        ],
+        "remarks": {}
+      }
+    ]
+  }
+}
