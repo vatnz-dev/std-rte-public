@@ -1,9 +1,8 @@
-# Navigraph NZZC STD RTE Access Repository
+# NZZC STD RTE Access Repository
 
-This repository exists to enable Navigraph (inc. SimBrief) to routinely pull NZZC STD RTEs and import them for use within the SimBrief flight planning software.
+This repository exists to enable third party access to a consolidated and rich dataset of NZZC STD RTEs. Primary utilsation will be by Navigraph.
 
 **VATNZ Point of Contact**: Tom K, Airspace Manager.
-**Navigraph/SimBrief Point of Contact**: Derek M, SimBrief Lead.
 
 ----
 
@@ -11,7 +10,7 @@ This repository exists to enable Navigraph (inc. SimBrief) to routinely pull NZZ
 
 This JSON file contains information about New Zealand's Standard Flight Routes. This data is structured in two main sections: `metadata`, and `routes`.
 
-Any change to this schema will be communicated to Navigraph/SimBrief with at least 30 days notice.
+Any change to this schema will be communicated with at least 30 days notice.
 
 ## File Name
 
