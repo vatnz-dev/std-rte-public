@@ -2,8 +2,8 @@
 
 This repository exists to enable Navigraph (inc. SimBrief) to routinely pull NZZC STD RTEs and import them for use within the SimBrief flight planning software.
 
-**VATNZ Point of Contact**: Tom Kilpatrick, Airspace Manager.
-**Navigraph/SimBrief Point of Contact**: Derek Mayer, SimBrief Lead.
+**VATNZ Point of Contact**: Tom K, Airspace Manager.
+**Navigraph/SimBrief Point of Contact**: Derek M, SimBrief Lead.
 
 ----
 
