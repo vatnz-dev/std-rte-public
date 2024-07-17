@@ -2,6 +2,8 @@
 
 This repository exists to enable third party access to a consolidated and rich dataset of NZZC STD RTEs. Primary utilsation will be by Navigraph.
 
+Other parties may use this repository for their own purposes provided they do not commercialise the data, and they attribute the data to VATNZ.
+
 **VATNZ Point of Contact**: Tom K, Airspace Manager.
 
 ----
@@ -14,7 +16,7 @@ Any change to this schema will be communicated with at least 30 days notice.
 
 ## File Name
 
-The file shall follow the format: `stdRoutes.json`.
+The file name shall follow the format: `stdRoutes.json`.
 
 ## metadata
 
