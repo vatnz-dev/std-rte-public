@@ -1,10 +1,10 @@
 {
   "metadata": {
     "cycleInfo": {
-      "cycle": 2408,
+      "cycle": 2410,
       "releaseAnrAligned": true,
       "releaseType": "routine",
-      "fileGeneratedAt": "2024-07-18T10-55-00"
+      "fileGeneratedAt": "2024-09-12T20-50-57"
     },
     "validityNumber": [
       {
@@ -23,7 +23,7 @@
         "description": "Extra"
       }
     ],
-    "description": "NZZC Standard Routes for AIRAC Cycle 2408"
+    "description": "NZZC Standard Routes for AIRAC Cycle 2410"
   },
   "routes": {
     "NZAA": [
@@ -3194,12 +3194,13 @@
         }
       },
       {
-        "id": "CHHK3",
+        "id": "CHHK1",
         "departureAerodrome": "NZCH",
         "destinationAerodrome": "NZHK",
         "lastUpdated": null,
         "runwayDependant": false,
         "routePoints": [
+          "AVOCA",
           "Q309"
         ],
         "remarks": {}
