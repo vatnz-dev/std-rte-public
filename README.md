@@ -4,7 +4,7 @@ This repository exists to enable third party access to a consolidated and rich d
 
 Other parties may use this repository for their own purposes provided they do not commercialise the data, and they attribute the data to VATNZ.
 
-**VATNZ Point of Contact**: Tom K, Airspace Manager.
+**VATNZ Point of Contact**: Richard B, Airspace Manager.
 
 ----
 
