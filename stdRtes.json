@@ -1,10 +1,10 @@
 {
   "metadata": {
     "cycleInfo": {
-      "cycle": 2410,
+      "cycle": 2412,
       "releaseAnrAligned": true,
       "releaseType": "routine",
-      "fileGeneratedAt": "2024-09-12T20-50-57"
+      "fileGeneratedAt": "2024-10-18T22-21-23"
     },
     "validityNumber": [
       {
@@ -23,7 +23,7 @@
         "description": "Extra"
       }
     ],
-    "description": "NZZC Standard Routes for AIRAC Cycle 2410"
+    "description": "NZZC Standard Routes for AIRAC Cycle 2412"
   },
   "routes": {
     "NZAA": [
@@ -218,14 +218,14 @@
         "remarks": {}
       },
       {
-        "id": "AANP1",
+        "id": "AANP2",
         "departureAerodrome": "NZAA",
         "destinationAerodrome": "NZNP",
         "lastUpdated": null,
         "runwayDependant": false,
         "routePoints": [
           "H384",
-          "KARRL",
+          "IGBAT",
           "Y832",
           "EKALI",
           "Y244"
@@ -268,14 +268,14 @@
         }
       },
       {
-        "id": "AAPM2",
+        "id": "AAPM3",
         "departureAerodrome": "NZAA",
         "destinationAerodrome": "NZPM",
         "lastUpdated": null,
         "runwayDependant": false,
         "routePoints": [
           "H211",
-          "LAKES",
+          "ORIDI",
           "Y666"
         ],
         "remarks": {
@@ -302,14 +302,14 @@
         }
       },
       {
-        "id": "AAPP3",
+        "id": "AAPP1",
         "departureAerodrome": "NZAA",
         "destinationAerodrome": "NZPP",
         "lastUpdated": null,
         "runwayDependant": false,
         "routePoints": [
           "H384",
-          "KARRL",
+          "IGBAT",
           "Y506",
           "TPAPA",
           "Y610"
@@ -393,14 +393,14 @@
         "remarks": {}
       },
       {
-        "id": "AAWN1",
+        "id": "AAWN3",
         "departureAerodrome": "NZAA",
         "destinationAerodrome": "NZWN",
         "lastUpdated": null,
         "runwayDependant": false,
         "routePoints": [
           "H384",
-          "KARRL",
+          "IGBAT",
           "Y506",
           "TPAPA",
           "Y738"
@@ -490,7 +490,7 @@
         "remarks": {
           "ac_type": "Jets",
           "nav_rnpReq": "RNP 1 Required",
-          "alt_maintain": "For flights at FL260 or above, maintain FL250 to LADIS"
+          "alt_limit": "FL260 or above"
         }
       },
       {
@@ -520,7 +520,7 @@
         "remarks": {
           "ac_type": "Props",
           "nav_rnpReq": "RNP 1 Required",
-          "alt_maintain": "For flights at FL260 or above,maintain FL250 to LADIS"
+          "alt_limit": "FL260 or above"
         }
       },
       {
@@ -535,7 +535,7 @@
         ],
         "remarks": {
           "nav_rnpReq": "RNP 1 Required",
-          "alt_maintain": "For flights at FL260 or above, maintain FL250 to LADIS"
+          "alt_limit": "FL260 or above"
         }
       },
       {
@@ -549,7 +549,7 @@
         ],
         "remarks": {
           "nav_rnpReq": "RNP 1 Required",
-          "alt_mfa": "MFA 4000 ft"
+          "alt_mfa": "MFA 4,000 ft"
         }
       },
       {
@@ -581,7 +581,7 @@
         "remarks": {
           "ac_type": "Jets",
           "nav_rnpReq": "RNP 1 Required",
-          "alt_maintain": "FL260 and above: maintain FL250 to LADIS"
+          "alt_limit": "FL260 or above"
         }
       },
       {
@@ -599,7 +599,7 @@
         "remarks": {
           "ac_type": "Props",
           "nav_rnpReq": "RNP 1 Required",
-          "alt_maintain": "For flights at FL260 or above, maintain FL250 to LADIS"
+          "alt_limit": "FL260 or above"
         }
       }
     ],
@@ -722,7 +722,17 @@
           {
             "runway": "AA RWY 23L",
             "points": [
-              "Auckland SKEPY2A Arrival"
+              "SKEPY",
+              "2A",
+              "STAR"
+            ]
+          },
+          {
+            "runway": "AA RWY 05R",
+            "points": [
+              "SCARY",
+              "3B",
+              "STAR"
             ]
           }
         ],
@@ -1085,7 +1095,7 @@
         ],
         "remarks": {
           "nav_rnpReq": "RNP 1 required",
-          "alt_mfa": "MFA 5000 ft"
+          "alt_mfa": "MFA 5,000 ft"
         }
       },
       {
@@ -1659,20 +1669,17 @@
           {
             "runway": "WN RWY 34",
             "points": [
-              "Wellington IGMUL Arrival"
+              "WN",
+              "IGMUL",
+              "STAR"
             ]
           },
           {
             "runway": "WN RWY 16",
             "points": [
-              "Wellington",
-              "AVPOD\n",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "Arrival"
+              "WN",
+              "AVPOD",
+              "STAR"
             ]
           }
         ],
@@ -1893,7 +1900,7 @@
           "Q119"
         ],
         "remarks": {
-          "alt_limit": "11,000ft and above"
+          "alt_limit": "11,000 ft and above"
         }
       },
       {
@@ -2021,6 +2028,17 @@
     ],
     "NZAR": [
       {
+        "id": "ARHN1",
+        "departureAerodrome": "NZAR",
+        "destinationAerodrome": "NZHN",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "ORIDI"
+        ],
+        "remarks": {}
+      },
+      {
         "id": "ARWR1",
         "departureAerodrome": "NZAR",
         "destinationAerodrome": "NZWR",
@@ -2064,7 +2082,7 @@
           "H211"
         ],
         "remarks": {
-          "alt_limit": "9000 ft and below"
+          "alt_limit": "9,000 ft and below"
         }
       },
       {
@@ -2407,7 +2425,7 @@
         }
       },
       {
-        "id": "WRWN3",
+        "id": "WRWN1",
         "departureAerodrome": "NZWR",
         "destinationAerodrome": "NZWN",
         "lastUpdated": null,
@@ -2417,7 +2435,7 @@
           "H379",
           "AA",
           "H384",
-          "KARRL",
+          "IGBAT",
           "Y506",
           "TPAPA",
           "Y738"
@@ -2491,7 +2509,7 @@
         }
       },
       {
-        "id": "WPOH3",
+        "id": "WPOH1",
         "departureAerodrome": "NZWP",
         "destinationAerodrome": "NZOH",
         "lastUpdated": null,
@@ -2500,14 +2518,14 @@
           "H182",
           "AA",
           "H211",
-          "LAKES",
+          "ORIDI",
           "Y666",
           "IDLUR"
         ],
         "remarks": {}
       },
       {
-        "id": "WPWN1",
+        "id": "WPWN2",
         "departureAerodrome": "NZWP",
         "destinationAerodrome": "NZWN",
         "lastUpdated": null,
@@ -2516,7 +2534,7 @@
           "H182",
           "AA",
           "H384",
-          "KARRL",
+          "IGBAT",
           "Y506",
           "TPAPA",
           "Y738"
@@ -2637,13 +2655,17 @@
           {
             "runway": "WN RWY 34",
             "points": [
-              "Wellington SULRI Arrival"
+              "WN",
+              "SULRI",
+              "STAR"
             ]
           },
           {
             "runway": "WN RWY 16",
             "points": [
-              "Wellington AVPOD Arrival"
+              "WN",
+              "AVPOD",
+              "STAR"
             ]
           }
         ],
@@ -2967,7 +2989,7 @@
           "H240"
         ],
         "remarks": {
-          "alt_limit": "9000 ft or below"
+          "alt_limit": "9,000 ft or below"
         }
       },
       {
@@ -3549,14 +3571,14 @@
         "remarks": {}
       },
       {
-        "id": "CHWN9",
+        "id": "CHWN7",
         "departureAerodrome": "NZCH",
         "destinationAerodrome": "NZWN",
         "lastUpdated": null,
         "runwayDependant": false,
         "routePoints": [
           "H424",
-          "GOOSE",
+          "IDGIV",
           "V306",
           "ONOLA",
           "Q421",
