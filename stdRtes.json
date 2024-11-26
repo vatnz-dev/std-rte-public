@@ -4,7 +4,7 @@
       "cycle": 2412,
       "releaseAnrAligned": true,
       "releaseType": "routine",
-      "fileGeneratedAt": "2024-10-18T22-21-23"
+      "fileGeneratedAt": "2024-11-27T11-39-35"
     },
     "validityNumber": [
       {
@@ -393,7 +393,7 @@
         "remarks": {}
       },
       {
-        "id": "AAWN3",
+        "id": "AAWN2",
         "departureAerodrome": "NZAA",
         "destinationAerodrome": "NZWN",
         "lastUpdated": null,
@@ -722,17 +722,13 @@
           {
             "runway": "AA RWY 23L",
             "points": [
-              "SKEPY",
-              "2A",
-              "STAR"
+              "SKEPY 2A STAR"
             ]
           },
           {
             "runway": "AA RWY 05R",
             "points": [
-              "SCARY",
-              "3B",
-              "STAR"
+              "SCARY 3B STAR"
             ]
           }
         ],
@@ -1669,17 +1665,13 @@
           {
             "runway": "WN RWY 34",
             "points": [
-              "WN",
-              "IGMUL",
-              "STAR"
+              "WN IGMUL STAR"
             ]
           },
           {
             "runway": "WN RWY 16",
             "points": [
-              "WN",
-              "AVPOD",
-              "STAR"
+              "WN AVPOD STAR"
             ]
           }
         ],
@@ -2655,17 +2647,13 @@
           {
             "runway": "WN RWY 34",
             "points": [
-              "WN",
-              "SULRI",
-              "STAR"
+              "WN SULRI STAR"
             ]
           },
           {
             "runway": "WN RWY 16",
             "points": [
-              "WN",
-              "AVPOD",
-              "STAR"
+              "WN AVPOD STAR"
             ]
           }
         ],
