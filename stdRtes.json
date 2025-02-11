@@ -1,10 +1,10 @@
 {
   "metadata": {
     "cycleInfo": {
-      "cycle": 2412,
+      "cycle": 2502,
       "releaseAnrAligned": true,
       "releaseType": "routine",
-      "fileGeneratedAt": "2024-11-27T11-39-35"
+      "fileGeneratedAt": "2025-01-29T22-02-27"
     },
     "validityNumber": [
       {
@@ -23,7 +23,7 @@
         "description": "Extra"
       }
     ],
-    "description": "NZZC Standard Routes for AIRAC Cycle 2412"
+    "description": "NZZC Standard Routes for AIRAC Cycle 2502"
   },
   "routes": {
     "NZAA": [
@@ -489,8 +489,7 @@
         ],
         "remarks": {
           "ac_type": "Jets",
-          "nav_rnpReq": "RNP 1 Required",
-          "alt_limit": "FL260 or above"
+          "nav_rnpReq": "RNP 1 Required"
         }
       },
       {
@@ -519,8 +518,7 @@
         ],
         "remarks": {
           "ac_type": "Props",
-          "nav_rnpReq": "RNP 1 Required",
-          "alt_limit": "FL260 or above"
+          "nav_rnpReq": "RNP 1 Required"
         }
       },
       {
@@ -534,8 +532,7 @@
           "Y477"
         ],
         "remarks": {
-          "nav_rnpReq": "RNP 1 Required",
-          "alt_limit": "FL260 or above"
+          "nav_rnpReq": "RNP 1 Required"
         }
       },
       {
@@ -580,8 +577,7 @@
         ],
         "remarks": {
           "ac_type": "Jets",
-          "nav_rnpReq": "RNP 1 Required",
-          "alt_limit": "FL260 or above"
+          "nav_rnpReq": "RNP 1 Required"
         }
       },
       {
@@ -598,8 +594,7 @@
         ],
         "remarks": {
           "ac_type": "Props",
-          "nav_rnpReq": "RNP 1 Required",
-          "alt_limit": "FL260 or above"
+          "nav_rnpReq": "RNP 1 Required"
         }
       }
     ],
@@ -3855,6 +3850,17 @@
           "PM",
           "H201",
           "OPAPA"
+        ],
+        "remarks": {}
+      },
+      {
+        "id": "WNMS1",
+        "departureAerodrome": "NZWN",
+        "destinationAerodrome": "NZMS",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "Q825"
         ],
         "remarks": {}
       },
