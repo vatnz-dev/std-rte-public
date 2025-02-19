@@ -1,0 +1,24 @@
+name: Tag Repo & Create Release
+on: 
+  workflow_dispatch:
+    inputs:
+      airac_cycle:
+        description: "AIRAC Cycle (e.g. 2502)"
+        required: true
+        type: string
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions: 
+      contents: write
+    steps:
+    - uses: actions/checkout@v4
+    - uses: ncipollo/release-action@v1
+      with:
+        artifacts: "stdRtes.json"
+        body: "Cycle ${{ inputs.airac_cycle }}"
+        tag: "${{ inputs.airac_cycle }}"
+        name: "${{ inputs.airac_cycle }}"
+        prerelease: true
+
