@@ -1,10 +1,10 @@
 {
   "metadata": {
     "cycleInfo": {
-      "cycle": 2502,
+      "cycle": 2506,
       "releaseAnrAligned": true,
       "releaseType": "routine",
-      "fileGeneratedAt": "2025-01-29T22-02-27"
+      "fileGeneratedAt": "2025-06-05T12-30-22"
     },
     "validityNumber": [
       {
@@ -23,7 +23,7 @@
         "description": "Extra"
       }
     ],
-    "description": "NZZC Standard Routes for AIRAC Cycle 2502"
+    "description": "NZZC Standard Routes for AIRAC Cycle 2506"
   },
   "routes": {
     "NZAA": [
@@ -153,7 +153,7 @@
         "remarks": {}
       },
       {
-        "id": "AAKK1",
+        "id": "AAKK2",
         "departureAerodrome": "NZAA",
         "destinationAerodrome": "NZKK",
         "lastUpdated": null,
@@ -172,7 +172,7 @@
             "points": [
               "Q520",
               "SF",
-              "H275"
+              "Q285"
             ]
           }
         ],
@@ -425,7 +425,7 @@
         "remarks": {}
       },
       {
-        "id": "AAWR3",
+        "id": "AAWR1",
         "departureAerodrome": "NZAA",
         "destinationAerodrome": "NZWR",
         "lastUpdated": null,
@@ -434,7 +434,7 @@
           {
             "runway": "AA RWY 23L",
             "points": [
-              "H460",
+              "H470",
               "KOPPA",
               "H441",
               "SF"
@@ -3022,7 +3022,7 @@
     ],
     "NZKK": [
       {
-        "id": "KKAA2",
+        "id": "KKAA3",
         "departureAerodrome": "NZKK",
         "destinationAerodrome": "NZAA",
         "lastUpdated": null,
@@ -3031,7 +3031,7 @@
           {
             "runway": "AA RWY 23L",
             "points": [
-              "H275",
+              "Q285",
               "SF",
               "Q520",
               "APABO"
