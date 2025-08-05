@@ -4,7 +4,7 @@
       "cycle": 2506,
       "releaseAnrAligned": true,
       "releaseType": "routine",
-      "fileGeneratedAt": "2025-06-05T12-30-22"
+      "fileGeneratedAt": "2025-08-05T06:19:54Z"
     },
     "validityNumber": [
       {
@@ -434,7 +434,7 @@
           {
             "runway": "AA RWY 23L",
             "points": [
-              "H470",
+              "Q470",
               "KOPPA",
               "H441",
               "SF"
