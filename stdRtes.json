@@ -1,10 +1,10 @@
 {
   "metadata": {
     "cycleInfo": {
-      "cycle": 2602,
+      "cycle": "2606",
       "releaseAnrAligned": true,
       "releaseType": "routine",
-      "fileGeneratedAt": "2026-02-14T03:04:55.837Z"
+      "fileGeneratedAt": "2026-06-01T05:17:07.385Z"
     },
     "validityNumber": [
       {
@@ -23,7 +23,7 @@
         "description": "Extra"
       }
     ],
-    "description": "NZZC Standard Routes for AIRAC Cycle 2602"
+    "description": "NZZC Standard Routes for AIRAC Cycle 2606"
   },
   "routes": {
     "NZAA": [
@@ -1350,6 +1350,19 @@
         "runwayDependant": false,
         "routePoints": [
           "H245"
+        ],
+        "remarks": {}
+      }
+    ],
+    "NZHK": [
+      {
+        "id": "HKCH1",
+        "departureAerodrome": "NZHK",
+        "destinationAerodrome": "NZCH",
+        "lastUpdated": null,
+        "runwayDependant": false,
+        "routePoints": [
+          "Q309"
         ],
         "remarks": {}
       }
