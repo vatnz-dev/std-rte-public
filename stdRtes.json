@@ -1,10 +1,10 @@
 {
   "metadata": {
     "cycleInfo": {
-      "cycle": "2606",
+      "cycle": "2608",
       "releaseAnrAligned": true,
       "releaseType": "routine",
-      "fileGeneratedAt": "2026-06-01T05:17:07.385Z"
+      "fileGeneratedAt": "2026-08-04T05:05:43.530Z"
     },
     "validityNumber": [
       {
@@ -23,7 +23,7 @@
         "description": "Extra"
       }
     ],
-    "description": "NZZC Standard Routes for AIRAC Cycle 2606"
+    "description": "NZZC Standard Routes for AIRAC Cycle 2608"
   },
   "routes": {
     "NZAA": [
@@ -141,24 +141,24 @@
         "id": "AAKK2",
         "departureAerodrome": "NZAA",
         "destinationAerodrome": "NZKK",
-        "lastUpdated": "2025-11-12T02:33:42.315Z",
+        "lastUpdated": "2026-06-13T09:20:35.981Z",
         "runwayDependant": true,
         "routePoints": [
           {
+            "runway": "AA RWY 23L",
             "points": [
               "G591",
               "UKAPA",
               "Q797"
-            ],
-            "runway": "AA RWY 23L"
+            ]
           },
           {
+            "runway": "AA RWY 05R",
             "points": [
               "Q520",
               "SF",
               "Q285"
-            ],
-            "runway": "AA RWY 05R"
+            ]
           }
         ],
         "remarks": {}
@@ -171,20 +171,20 @@
         "runwayDependant": true,
         "routePoints": [
           {
+            "runway": "AA RWY 23L",
             "points": [
               "G591"
-            ],
-            "runway": "AA RWY 23L"
+            ]
           },
           {
+            "runway": "AA RWY 05R",
             "points": [
               "Q520",
               "APABO",
               "Q659",
               "PERAS",
               "G591"
-            ],
-            "runway": "AA RWY 05R"
+            ]
           }
         ],
         "remarks": {}
@@ -193,7 +193,7 @@
         "id": "AANP2",
         "departureAerodrome": "NZAA",
         "destinationAerodrome": "NZNP",
-        "lastUpdated": "2025-11-12T00:16:25.288Z",
+        "lastUpdated": "2026-06-13T09:20:37.427Z",
         "runwayDependant": false,
         "routePoints": [
           "H384",
@@ -282,7 +282,7 @@
         "id": "AAPM3",
         "departureAerodrome": "NZAA",
         "destinationAerodrome": "NZPM",
-        "lastUpdated": "2025-11-12T00:35:58.876Z",
+        "lastUpdated": "2026-06-13T09:20:35.238Z",
         "runwayDependant": false,
         "routePoints": [
           "H211",
@@ -316,7 +316,7 @@
         "id": "AAPP1",
         "departureAerodrome": "NZAA",
         "destinationAerodrome": "NZPP",
-        "lastUpdated": "2025-11-12T00:36:25.188Z",
+        "lastUpdated": "2026-06-13T09:20:34.783Z",
         "runwayDependant": false,
         "routePoints": [
           "H384",
@@ -415,7 +415,7 @@
         "id": "AAWN2",
         "departureAerodrome": "NZAA",
         "destinationAerodrome": "NZWN",
-        "lastUpdated": "2025-11-12T00:17:17.458Z",
+        "lastUpdated": "2026-06-13T09:20:34.155Z",
         "runwayDependant": false,
         "routePoints": [
           "H384",
@@ -432,24 +432,24 @@
         "id": "AAWR1",
         "departureAerodrome": "NZAA",
         "destinationAerodrome": "NZWR",
-        "lastUpdated": "2025-11-12T08:30:25.453Z",
+        "lastUpdated": "2026-06-13T09:20:37.819Z",
         "runwayDependant": true,
         "routePoints": [
           {
+            "runway": "AA RWY 23L",
             "points": [
               "Q470",
               "KOPPA",
               "H441",
               "SF"
-            ],
-            "runway": "AA RWY 23L"
+            ]
           },
           {
+            "runway": "AA RWY 05R",
             "points": [
               "H379",
               "SF"
-            ],
-            "runway": "AA RWY 05R"
+            ]
           }
         ],
         "remarks": {}
@@ -488,7 +488,7 @@
         "id": "APAA5",
         "departureAerodrome": "NZAP",
         "destinationAerodrome": "NZAA",
-        "lastUpdated": "2025-11-12T00:30:32.286Z",
+        "lastUpdated": "2026-06-13T09:20:34.882Z",
         "runwayDependant": false,
         "routePoints": [
           "H211"
@@ -654,7 +654,7 @@
         "id": "CHHK1",
         "departureAerodrome": "NZCH",
         "destinationAerodrome": "NZHK",
-        "lastUpdated": "2025-11-12T00:15:44.750Z",
+        "lastUpdated": "2026-06-13T09:20:38.294Z",
         "runwayDependant": false,
         "routePoints": [
           "AVOCA",
@@ -774,32 +774,16 @@
         }
       },
       {
-        "id": "CHNS2",
+        "id": "CHNS3",
         "departureAerodrome": "NZCH",
         "destinationAerodrome": "NZNS",
-        "lastUpdated": null,
-        "runwayDependant": true,
+        "lastUpdated": "2026-08-04T05:03:39.966Z",
+        "runwayDependant": false,
         "routePoints": [
-          {
-            "points": [
-              "H110",
-              "PORAM",
-              "Y781",
-              "BISEB"
-            ],
-            "runway": "NS RWY 02"
-          },
-          {
-            "points": [
-              "H110",
-              "PORAM",
-              "Y781",
-              "BISEB",
-              "H110",
-              "GUNEL"
-            ],
-            "runway": "NS RWY 20"
-          }
+          "H110",
+          "PORAM",
+          "Y781",
+          "BISEB"
         ],
         "remarks": {}
       },
@@ -1058,7 +1042,7 @@
         "id": "CHWN7",
         "departureAerodrome": "NZCH",
         "destinationAerodrome": "NZWN",
-        "lastUpdated": "2025-11-12T00:33:30.407Z",
+        "lastUpdated": "2026-06-13T09:20:35.028Z",
         "runwayDependant": false,
         "routePoints": [
           "H424",
@@ -1123,7 +1107,7 @@
         "id": "DNAA1",
         "departureAerodrome": "NZDN",
         "destinationAerodrome": "NZAA",
-        "lastUpdated": "2025-11-12T00:41:18.333Z",
+        "lastUpdated": "2026-06-13T09:20:34.756Z",
         "runwayDependant": false,
         "routePoints": [
           "BIDEL",
@@ -1144,7 +1128,7 @@
         "id": "DNAA4",
         "departureAerodrome": "NZDN",
         "destinationAerodrome": "NZAA",
-        "lastUpdated": "2025-11-12T00:41:37.383Z",
+        "lastUpdated": "2026-06-13T09:20:34.247Z",
         "runwayDependant": false,
         "routePoints": [
           "BIDEL",
@@ -1173,7 +1157,7 @@
         "id": "DNCH2",
         "departureAerodrome": "NZDN",
         "destinationAerodrome": "NZCH",
-        "lastUpdated": "2025-11-12T00:42:07.858Z",
+        "lastUpdated": "2026-06-13T09:20:36.104Z",
         "runwayDependant": false,
         "routePoints": [
           "BIDEL",
@@ -1187,7 +1171,7 @@
         "id": "DNNV2",
         "departureAerodrome": "NZDN",
         "destinationAerodrome": "NZNV",
-        "lastUpdated": "2025-11-12T00:19:52.202Z",
+        "lastUpdated": "2026-06-13T09:20:36.032Z",
         "runwayDependant": false,
         "routePoints": [
           "AKPIN"
@@ -1213,7 +1197,7 @@
         "id": "DNWN3",
         "departureAerodrome": "NZDN",
         "destinationAerodrome": "NZWN",
-        "lastUpdated": "2025-11-12T00:42:31.058Z",
+        "lastUpdated": "2026-06-13T09:20:38.429Z",
         "runwayDependant": false,
         "routePoints": [
           "BIDEL",
@@ -1232,7 +1216,7 @@
         "id": "DNWN5",
         "departureAerodrome": "NZDN",
         "destinationAerodrome": "NZWN",
-        "lastUpdated": "2025-11-12T00:42:53.853Z",
+        "lastUpdated": "2026-06-13T09:20:35.354Z",
         "runwayDependant": false,
         "routePoints": [
           "BIDEL",
@@ -1369,23 +1353,23 @@
     ],
     "NZHN": [
       {
-        "id": "HNAA3",
+        "id": "HNAA1",
         "departureAerodrome": "NZHN",
         "destinationAerodrome": "NZAA",
-        "lastUpdated": "2025-11-12T00:22:27.057Z",
+        "lastUpdated": "2026-08-04T05:05:08.537Z",
         "runwayDependant": true,
         "routePoints": [
           {
+            "runway": "AA RWY 23L",
             "points": [
               "SKEPY 2A STAR"
-            ],
-            "runway": "AA RWY 23L"
+            ]
           },
           {
+            "runway": "AA RWY 05R",
             "points": [
-              "SCARY 3B STAR"
-            ],
-            "runway": "AA RWY 05R"
+              "LEBIP 1B STAR"
+            ]
           }
         ],
         "remarks": {}
@@ -1394,7 +1378,7 @@
         "id": "HNCH3",
         "departureAerodrome": "NZHN",
         "destinationAerodrome": "NZCH",
-        "lastUpdated": "2025-12-27T07:28:49.903Z",
+        "lastUpdated": "2026-06-13T09:20:34.574Z",
         "runwayDependant": false,
         "routePoints": [
           "H479",
@@ -1412,7 +1396,7 @@
         "id": "HNCH5",
         "departureAerodrome": "NZHN",
         "destinationAerodrome": "NZCH",
-        "lastUpdated": "2025-12-27T07:33:36.063Z",
+        "lastUpdated": "2026-06-13T09:20:36.632Z",
         "runwayDependant": false,
         "routePoints": [
           "Q126",
@@ -1445,15 +1429,16 @@
         "runwayDependant": true,
         "routePoints": [
           {
+            "runway": "WP RWY 03",
             "points": [
               "Q718",
               "SURFY",
               "Q789",
               "LIBKO"
-            ],
-            "runway": "WP RWY 03"
+            ]
           },
           {
+            "runway": "WP RWY 21",
             "points": [
               "Q401",
               "MERAS",
@@ -1461,8 +1446,7 @@
               "HOOKS",
               "Q789",
               "UPLIN"
-            ],
-            "runway": "WP RWY 21"
+            ]
           }
         ],
         "remarks": {}
@@ -1624,18 +1608,18 @@
         "runwayDependant": true,
         "routePoints": [
           {
+            "runway": "WP RWY 03",
             "points": [
               "Q718"
-            ],
-            "runway": "WP RWY 03"
+            ]
           },
           {
+            "runway": "WP RWY 21",
             "points": [
               "Q401",
               "MERAS",
               "Q741"
-            ],
-            "runway": "WP RWY 21"
+            ]
           }
         ],
         "remarks": {
@@ -1661,24 +1645,24 @@
         "id": "KKAA3",
         "departureAerodrome": "NZKK",
         "destinationAerodrome": "NZAA",
-        "lastUpdated": "2025-11-12T05:37:57.529Z",
+        "lastUpdated": "2026-06-13T09:20:37.142Z",
         "runwayDependant": true,
         "routePoints": [
           {
+            "runway": "AA RWY 23L",
             "points": [
               "Q285",
               "SF",
               "Q520",
               "APABO"
-            ],
-            "runway": "AA RWY 23L"
+            ]
           },
           {
+            "runway": "AA RWY 05R",
             "points": [
               "Q797",
               "UKAPA"
-            ],
-            "runway": "AA RWY 05R"
+            ]
           }
         ],
         "remarks": {
@@ -1695,20 +1679,20 @@
         "runwayDependant": true,
         "routePoints": [
           {
+            "runway": "AA RWY 23L",
             "points": [
               "G591",
               "PERAS",
               "Q659",
               "APABO"
-            ],
-            "runway": "AA RWY 23L"
+            ]
           },
           {
+            "runway": "AA RWY 05R",
             "points": [
               "G591",
               "UKAPA"
-            ],
-            "runway": "AA RWY 05R"
+            ]
           }
         ],
         "remarks": {
@@ -1769,6 +1753,7 @@
         "runwayDependant": true,
         "routePoints": [
           {
+            "runway": "WP RWY 03",
             "points": [
               "UPLIN",
               "Q789",
@@ -1776,17 +1761,16 @@
               "Q741",
               "MERAS",
               "Q401"
-            ],
-            "runway": "WP RWY 03"
+            ]
           },
           {
+            "runway": "WP RWY 21",
             "points": [
               "LIBKO",
               "Q789",
               "SURFY",
               "Q718"
-            ],
-            "runway": "WP RWY 21"
+            ]
           }
         ],
         "remarks": {}
@@ -1816,22 +1800,22 @@
         "runwayDependant": true,
         "routePoints": [
           {
+            "runway": "NP RWY 05",
             "points": [
               "Y738",
               "DAPNO",
               "Q335",
               "PEDPO",
               "Y894"
-            ],
-            "runway": "NP RWY 05"
+            ]
           },
           {
+            "runway": "NP RWY 23",
             "points": [
               "Q137",
               "VELGA",
               "Y894"
-            ],
-            "runway": "NP RWY 23"
+            ]
           }
         ],
         "remarks": {}
@@ -2054,7 +2038,7 @@
         "id": "NRPM4",
         "departureAerodrome": "NZNR",
         "destinationAerodrome": "NZPM",
-        "lastUpdated": "2025-11-12T00:33:02.342Z",
+        "lastUpdated": "2026-06-13T09:20:34.682Z",
         "runwayDependant": false,
         "routePoints": [
           "H240"
@@ -2101,6 +2085,7 @@
         "runwayDependant": true,
         "routePoints": [
           {
+            "runway": "NS RWY 02",
             "points": [
               "Q438",
               "IGUTA",
@@ -2111,10 +2096,10 @@
               "Y273",
               "PEPPE",
               "H182"
-            ],
-            "runway": "NS RWY 02"
+            ]
           },
           {
+            "runway": "NS RWY 20",
             "points": [
               "BIVER",
               "Y341",
@@ -2126,8 +2111,7 @@
               "Y273",
               "PEPPE",
               "H182"
-            ],
-            "runway": "NS RWY 20"
+            ]
           }
         ],
         "remarks": {}
@@ -2153,16 +2137,17 @@
         "runwayDependant": true,
         "routePoints": [
           {
+            "runway": "NS RWY 02",
             "points": [
               "Q438",
               "IGUTA",
               "Y175",
               "OPABI",
               "Q126"
-            ],
-            "runway": "NS RWY 02"
+            ]
           },
           {
+            "runway": "NS RWY 20",
             "points": [
               "BIVER",
               "Y341",
@@ -2172,8 +2157,7 @@
               "Y175",
               "OPABI",
               "Q126"
-            ],
-            "runway": "NS RWY 20"
+            ]
           }
         ],
         "remarks": {}
@@ -2238,22 +2222,22 @@
         "runwayDependant": true,
         "routePoints": [
           {
+            "runway": "NS RWY 02",
             "points": [
               "H240",
               "DUMOT",
               "Q367"
-            ],
-            "runway": "NS RWY 02"
+            ]
           },
           {
+            "runway": "NS RWY 20",
             "points": [
               "Q438",
               "SNAPA",
               "Y501",
               "DUMOT",
               "Q367"
-            ],
-            "runway": "NS RWY 20"
+            ]
           }
         ],
         "remarks": {}
@@ -2317,7 +2301,7 @@
         "id": "NVDN2",
         "departureAerodrome": "NZNV",
         "destinationAerodrome": "NZDN",
-        "lastUpdated": "2025-11-12T00:22:51.868Z",
+        "lastUpdated": "2026-06-13T09:20:33.827Z",
         "runwayDependant": false,
         "routePoints": [
           "EPDAB"
@@ -2360,7 +2344,7 @@
         "id": "OHAA2",
         "departureAerodrome": "NZOH",
         "destinationAerodrome": "NZAA",
-        "lastUpdated": "2025-12-27T07:44:42.146Z",
+        "lastUpdated": "2026-06-13T09:20:34.550Z",
         "runwayDependant": false,
         "routePoints": [
           "W139",
@@ -2381,7 +2365,7 @@
         "id": "OHAA5",
         "departureAerodrome": "NZOH",
         "destinationAerodrome": "NZAA",
-        "lastUpdated": "2025-12-27T07:45:10.698Z",
+        "lastUpdated": "2026-06-13T09:20:34.900Z",
         "runwayDependant": false,
         "routePoints": [
           "W139",
@@ -2417,7 +2401,7 @@
         "id": "OHWB2",
         "departureAerodrome": "NZOH",
         "destinationAerodrome": "NZWB",
-        "lastUpdated": "2025-12-27T07:48:14.142Z",
+        "lastUpdated": "2026-06-13T09:20:33.975Z",
         "runwayDependant": false,
         "routePoints": [
           "V112",
@@ -2456,7 +2440,7 @@
         "id": "OHWP2",
         "departureAerodrome": "NZOH",
         "destinationAerodrome": "NZWP",
-        "lastUpdated": "2026-01-30T11:33:52.537Z",
+        "lastUpdated": "2026-06-13T09:20:33.579Z",
         "runwayDependant": false,
         "routePoints": [
           "W139",
@@ -2479,7 +2463,7 @@
         "id": "OHWP4",
         "departureAerodrome": "NZOH",
         "destinationAerodrome": "NZWP",
-        "lastUpdated": "2025-12-27T07:47:27.254Z",
+        "lastUpdated": "2026-06-13T09:20:34.410Z",
         "runwayDependant": false,
         "routePoints": [
           "W139",
@@ -2693,20 +2677,20 @@
         "id": "PNWN1",
         "departureAerodrome": "NZPN",
         "destinationAerodrome": "NZWN",
-        "lastUpdated": "2025-11-12T00:23:41.203Z",
+        "lastUpdated": "2026-06-13T09:20:36.463Z",
         "runwayDependant": true,
         "routePoints": [
           {
+            "runway": "WN RWY 34",
             "points": [
               "WN IGMUL STAR"
-            ],
-            "runway": "WN RWY 34"
+            ]
           },
           {
+            "runway": "WN RWY 16",
             "points": [
               "WN AVPOD STAR"
-            ],
-            "runway": "WN RWY 16"
+            ]
           }
         ],
         "remarks": {}
@@ -2916,7 +2900,7 @@
         "id": "ROAA2",
         "departureAerodrome": "NZRO",
         "destinationAerodrome": "NZAA",
-        "lastUpdated": "2025-11-12T00:24:00.634Z",
+        "lastUpdated": "2026-06-13T09:20:35.507Z",
         "runwayDependant": false,
         "routePoints": [
           "Y871",
@@ -3300,20 +3284,20 @@
         "id": "WBWN1",
         "departureAerodrome": "NZWB",
         "destinationAerodrome": "NZWN",
-        "lastUpdated": "2025-11-12T00:32:40.320Z",
+        "lastUpdated": "2026-06-13T09:20:33.912Z",
         "runwayDependant": true,
         "routePoints": [
           {
+            "runway": "WN RWY 34",
             "points": [
               "WN SULRI STAR"
-            ],
-            "runway": "WN RWY 34"
+            ]
           },
           {
+            "runway": "WN RWY 16",
             "points": [
               "WN AVPOD STAR"
-            ],
-            "runway": "WN RWY 16"
+            ]
           }
         ],
         "remarks": {}
@@ -3672,18 +3656,18 @@
         "runwayDependant": true,
         "routePoints": [
           {
+            "runway": "WN RWY 34",
             "points": [
               "NULKO",
               "Q235"
-            ],
-            "runway": "WN RWY 34"
+            ]
           },
           {
+            "runway": "WN RWY 16",
             "points": [
               "LUBSI",
               "H133"
-            ],
-            "runway": "WN RWY 16"
+            ]
           }
         ],
         "remarks": {}
@@ -3759,16 +3743,16 @@
         "runwayDependant": true,
         "routePoints": [
           {
+            "runway": "WN RWY 34",
             "points": [
               "AVPOD"
-            ],
-            "runway": "WN RWY 34"
+            ]
           },
           {
+            "runway": "WN RWY 16",
             "points": [
               "Q100"
-            ],
-            "runway": "WN RWY 16"
+            ]
           }
         ],
         "remarks": {}
@@ -3870,16 +3854,16 @@
         "runwayDependant": true,
         "routePoints": [
           {
+            "runway": "WN RWY 34",
             "points": [
               "AVPOD"
-            ],
-            "runway": "WN RWY 34"
+            ]
           },
           {
+            "runway": "WN RWY 16",
             "points": [
               "Q100"
-            ],
-            "runway": "WN RWY 16"
+            ]
           }
         ],
         "remarks": {}
@@ -4000,6 +3984,7 @@
         "runwayDependant": true,
         "routePoints": [
           {
+            "runway": "WN RWY 34",
             "points": [
               "NULKO",
               "Q235",
@@ -4007,17 +3992,16 @@
               "H463",
               "NS",
               "H267"
-            ],
-            "runway": "WN RWY 34"
+            ]
           },
           {
+            "runway": "WN RWY 16",
             "points": [
               "LUBSI",
               "H133",
               "NS",
               "H267"
-            ],
-            "runway": "WN RWY 16"
+            ]
           }
         ],
         "remarks": {}
@@ -4093,18 +4077,18 @@
         "runwayDependant": true,
         "routePoints": [
           {
+            "runway": "WP RWY 03",
             "points": [
               "Q741",
               "MERAS",
               "Q401"
-            ],
-            "runway": "WP RWY 03"
+            ]
           },
           {
+            "runway": "WP RWY 21",
             "points": [
               "Q718"
-            ],
-            "runway": "WP RWY 21"
+            ]
           }
         ],
         "remarks": {
@@ -4115,7 +4099,7 @@
         "id": "WPOH1",
         "departureAerodrome": "NZWP",
         "destinationAerodrome": "NZOH",
-        "lastUpdated": "2025-11-12T00:38:39.522Z",
+        "lastUpdated": "2026-06-13T09:20:36.068Z",
         "runwayDependant": false,
         "routePoints": [
           "H182",
@@ -4131,7 +4115,7 @@
         "id": "WPWN2",
         "departureAerodrome": "NZWP",
         "destinationAerodrome": "NZWN",
-        "lastUpdated": "2025-11-12T00:31:40.258Z",
+        "lastUpdated": "2026-06-13T09:20:38.072Z",
         "runwayDependant": false,
         "routePoints": [
           "H182",
@@ -4156,20 +4140,20 @@
         "runwayDependant": true,
         "routePoints": [
           {
+            "runway": "AA RWY 23L",
             "points": [
               "SF",
               "Q520",
               "APABO"
-            ],
-            "runway": "AA RWY 23L"
+            ]
           },
           {
+            "runway": "AA RWY 05R",
             "points": [
               "SF",
               "H150",
               "UKAPA"
-            ],
-            "runway": "AA RWY 05R"
+            ]
           }
         ],
         "remarks": {
@@ -4180,7 +4164,7 @@
         "id": "WRWN1",
         "departureAerodrome": "NZWR",
         "destinationAerodrome": "NZWN",
-        "lastUpdated": "2025-11-12T00:31:04.836Z",
+        "lastUpdated": "2026-06-13T09:20:35.024Z",
         "runwayDependant": false,
         "routePoints": [
           "SF",
