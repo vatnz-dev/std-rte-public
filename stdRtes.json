@@ -1,10 +1,10 @@
 {
   "metadata": {
     "cycleInfo": {
-      "cycle": "2608",
+      "cycle": "2612",
       "releaseAnrAligned": true,
       "releaseType": "routine",
-      "fileGeneratedAt": "2026-08-04T05:05:43.530Z"
+      "fileGeneratedAt": "2026-11-05T04:25:55.515Z"
     },
     "validityNumber": [
       {
@@ -23,7 +23,7 @@
         "description": "Extra"
       }
     ],
-    "description": "NZZC Standard Routes for AIRAC Cycle 2608"
+    "description": "NZZC Standard Routes for AIRAC Cycle 2612"
   },
   "routes": {
     "NZAA": [
@@ -2245,16 +2245,16 @@
     ],
     "NZNV": [
       {
-        "id": "NVAA1",
+        "id": "NVAA2",
         "departureAerodrome": "NZNV",
         "destinationAerodrome": "NZAA",
-        "lastUpdated": null,
+        "lastUpdated": "2026-11-05T04:24:29.130Z",
         "runwayDependant": false,
         "routePoints": [
           "Q787",
           "QN",
           "Y569",
-          "LOVTA",
+          "ISTUN",
           "Y655",
           "POKOM",
           "Q277"
@@ -2771,14 +2771,14 @@
     ],
     "NZQN": [
       {
-        "id": "QNAA1",
+        "id": "QNAA2",
         "departureAerodrome": "NZQN",
         "destinationAerodrome": "NZAA",
-        "lastUpdated": null,
+        "lastUpdated": "2026-11-05T04:25:06.051Z",
         "runwayDependant": false,
         "routePoints": [
           "Y569",
-          "LOVTA",
+          "ISTUN",
           "Y655",
           "POKOM",
           "Q277"
