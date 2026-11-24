@@ -1622,9 +1622,7 @@
             ]
           }
         ],
-        "remarks": {
-          "nav_otherReq": "AVBL RNAV and/or GNSS APV ACFT only"
-        }
+        "remarks": {}
       },
       {
         "id": "HNWU2",
@@ -4091,9 +4089,7 @@
             ]
           }
         ],
-        "remarks": {
-          "nav_otherReq": "AVBL RNAV and/or GNSS APV ACFT only"
-        }
+        "remarks": {}
       },
       {
         "id": "WPOH1",
